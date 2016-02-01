@@ -16,11 +16,17 @@
 
 get_header(); ?>
 <div id="page" role="main">
-	<article class="main-content">
-	<?php if ( have_posts() ) :
-		
-	?>
 
+		<?php dynamic_sidebar( 'home-widgets' ); ?>
+
+		<?php dynamic_sidebar( 'arguments-widgets' ); ?>
+
+
+	<article class="main-content">
+
+		<?php if ( have_posts() ) :
+
+		?>
 
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
