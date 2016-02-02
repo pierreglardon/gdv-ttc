@@ -45,7 +45,7 @@ require_once( 'library/custom-nav.php' );
 /** Change WP's sticky post class */
 require_once( 'library/sticky-posts.php' );
 
-/** Change WP's sticky post class */
+/** Comics custom post type */
 require_once( 'library/custom-post-type.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
