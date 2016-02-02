@@ -60,3 +60,25 @@
     color: #B9B9B9;
   }
 }
+
+.site-header {
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.admin-bar .site-header  {
+    top:32px;
+    @media screen and (max-width: 782px) {
+        top:46px;
+    }
+}
+
+.tool-bar {
+    background: #ffffff;
+    .row {
+        div:last-of-type {
+            text-align:right;
+        }
+    }
+}
