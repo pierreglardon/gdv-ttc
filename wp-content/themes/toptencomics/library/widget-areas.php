@@ -23,8 +23,38 @@ function foundationpress_sidebar_widgets() {
 	  'id' => 'footer-widgets',
 	  'name' => __( 'Footer widgets', 'foundationpress' ),
 	  'description' => __( 'Drag widgets to this footer container', 'foundationpress' ),
-	  'before_widget' => '<article id="%1$s" class="large-4 columns widget %2$s">',
+	  'before_widget' => '<article id="%1$s" class="large-12 columns">',
 	  'after_widget' => '</article>',
+	  'before_title' => '<h6>',
+	  'after_title' => '</h6>',
+	));
+
+	register_sidebar(array(
+	  'id' => 'header-widgets',
+	  'name' => __( 'Header widgets', 'foundationpress' ),
+	  'description' => __( 'Drag widgets to this header container', 'foundationpress' ),
+	  'before_widget' => '<article id="%1$s" class="row widget %2$s"><div class="small-12 columns">',
+	  'after_widget' => '</article>',
+	  'before_title' => '<h6>',
+	  'after_title' => '</h6>',
+	));
+
+	register_sidebar(array(
+	  'id' => 'home-widgets',
+	  'name' => __( 'Home widgets', 'foundationpress' ),
+	  'description' => __( 'Texte page d\'accueil', 'foundationpress' ),
+	  'before_widget' => '<h2 id="%1$s" class="row widget %2$s home-h2"><div class="small-12 columns">',
+	  'after_widget' => '</h2>',
+	  'before_title' => '<h6>',
+	  'after_title' => '</h6>',
+	));
+
+	register_sidebar(array(
+	  'id' => 'arguments-widgets',
+	  'name' => __( 'Arguments block', 'foundationpress' ),
+	  'description' => __( 'Les 3 arguments sur la page d\'accueil', 'foundationpress' ),
+	  'before_widget' => '<h2 id="%1$s" class="row widget %2$s home-h2"><div class="small-12 columns">',
+	  'after_widget' => '</h2>',
 	  'before_title' => '<h6>',
 	  'after_title' => '</h6>',
 	));
