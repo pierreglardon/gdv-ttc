@@ -1,0 +1,13 @@
+body {
+    padding-top:32px;
+}
+.clear:after {
+    clear:both;
+    content:"";
+    display:block;
+}
+.home-h2 {
+    text-align:center;
+    text-transform: uppercase;
+    margin:2rem;
+}
