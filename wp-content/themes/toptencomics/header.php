@@ -20,6 +20,7 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-114x114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
 		<?php wp_head(); ?>
 	</head>
@@ -38,10 +39,10 @@
 		<div class="tool-bar">
 			<div class="row">
 				<div class="small-6 columns">
-					Recherche
+					<i class="fa fa-search"></i> Recherche
 				</div>
 				<div class="small-6 columns">
-					<a href="#">Mon compte</a>
+					<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mini-batman.png" alt="Mon compte" /> Mon compte</a>
 				</div>
 			</div>
 		</div>
@@ -56,7 +57,7 @@
 			<div class="row">
 				<div class="small-6 columns">
 					<div class="top-bar-left show-for-medium">
-						<ul class="menu">
+						<ul class="logo">
 							<li class="home">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="hiddenBeforeScroll">
 									<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
