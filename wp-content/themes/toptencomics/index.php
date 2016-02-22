@@ -20,6 +20,7 @@ get_header(); ?>
 	<section class="join">
 		<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo-big.png" alt="<?php bloginfo( 'name' ); ?>" />
 		<h2>GÉREZ VOTRE COLLECTION EN QUELQUES CLICS !</h2>
+		<a href="#" class="btn">Rejoignez l'aventure !</a>
 	</section>
 
 		<?php dynamic_sidebar( 'home-widgets' ); ?>
