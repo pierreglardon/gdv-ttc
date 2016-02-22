@@ -1,31 +1,50 @@
 .top-bar {
-
+    background: rgba(14,14,36,0.5);
+    ul {
+        background:none;
+    }
   .menu .home a {
     font-size: 1rem;
+    padding:0 !important;
     color: #B9B9B9;
-  }
-
-  .menu a {
-    height: 45px;
-    line-height: 45px;
-    color: #e6e6e6;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-weight: bold;
-    font-size: 0.8rem;
-
-    &:hover:not(.button) {
-      background-color: #2a2a2a;
+    img {
+        max-height:80px;
+    }
+    :hover:not(.button){
+        background:0;
     }
   }
 
-  .menu>li:not(.menu-text)>a {
-    padding: 1rem;
+  .menu {
+      li {
+          a {
+              height: 80px;
+              line-height: 80px;
+              color: #ffffff;
+              padding-top: 0;
+              padding-bottom: 0;
+              font-weight: bold;
+              font-size: 16px;
+              font-family: $fontComic;
+              border-bottom: 5px solid transparent;
+              border-top:5px solid transparent;
+              transition:border-bottom 0.2s ease;
+              &:hover {
+                  background-color: 0;
+                  border-bottom:5px solid #2aa0d7;
+              }
+          }
+          &.current-menu-item {
+              a {
+                  border-bottom:5px solid #2aa0d7;
+              }
+          }
+      }
   }
 
   .menu li:not(:last-child) {
     @include breakpoint(medium) {
-      border-right: 1px solid #4e4e4e;
+      border-right: 0;
     }
   }
 
@@ -42,7 +61,13 @@
   .dropdown.menu .has-submenu.is-down-arrow>a::after {
     border: 0;
   }
-
+    &.main-navigation {
+        height:80px;
+        box-shadow:0 1px 0 rgba(255,255,255,0.26);
+        .menu-item {
+            height:80px;
+        }
+    }
 
 }
 
@@ -75,7 +100,13 @@
 }
 
 .tool-bar {
+    font-family: $fontComic;
+    height:40px;
+    line-height:40px;
     background: #ffffff;
+    a {
+        color:#000;
+    }
     .row {
         div:last-of-type {
             text-align:right;

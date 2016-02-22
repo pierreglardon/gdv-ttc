@@ -6,3 +6,15 @@
   border-radius: 3px;
   border: none;
 }
+.btn {
+    background:#e11525;
+    padding:1.3rem 2rem 1rem;
+    font-family:  $fontComic;
+    font-size:22px;
+    border:3px solid #e23f38;
+    color:#ffffff;
+    text-transform: uppercase;
+    &:hover , &:focus, &:active {
+        color:#ffffff;
+    }
+}
