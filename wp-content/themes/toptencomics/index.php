@@ -17,6 +17,11 @@
 get_header(); ?>
 <div id="page" role="main">
 
+	<section class="join">
+		<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo-big.png" alt="<?php bloginfo( 'name' ); ?>" />
+		<h2>GÉREZ VOTRE COLLECTION EN QUELQUES CLICS !</h2>
+	</section>
+
 		<?php dynamic_sidebar( 'home-widgets' ); ?>
 
 		<?php dynamic_sidebar( 'arguments-widgets' ); ?>

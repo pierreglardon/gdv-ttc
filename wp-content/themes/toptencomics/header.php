@@ -20,6 +20,7 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-114x114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png">
+		<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
@@ -40,7 +41,7 @@
 					Recherche
 				</div>
 				<div class="small-6 columns">
-					Mon compte
+					<a href="#">Mon compte</a>
 				</div>
 			</div>
 		</div>
@@ -56,7 +57,11 @@
 				<div class="small-6 columns">
 					<div class="top-bar-left show-for-medium">
 						<ul class="menu">
-							<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
+							<li class="home">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="hiddenBeforeScroll">
+									<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
