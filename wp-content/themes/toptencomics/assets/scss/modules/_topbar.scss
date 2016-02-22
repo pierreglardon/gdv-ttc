@@ -1,7 +1,17 @@
 .top-bar {
-    background: rgba(14,14,36,0.5);
     ul {
         background:none;
+        list-style: none;
+        margin:0;
+        a {
+            display:inline-block;
+            vertical-align: middle;
+            img {
+                max-height: 80px;
+                display:inline-block;
+                vertical-align: middle;
+            }
+        }
     }
   .menu .home a {
     font-size: 1rem;
@@ -20,10 +30,10 @@
           a {
               height: 80px;
               line-height: 80px;
-              color: #ffffff;
+              color: #0e0e24;
               padding-top: 0;
               padding-bottom: 0;
-              font-weight: bold;
+              font-weight: normal;
               font-size: 16px;
               font-family: $fontComic;
               border-bottom: 5px solid transparent;
@@ -31,12 +41,12 @@
               transition:border-bottom 0.2s ease;
               &:hover {
                   background-color: 0;
-                  border-bottom:5px solid #2aa0d7;
+                  border-bottom:5px solid #f90b43;
               }
           }
           &.current-menu-item {
               a {
-                  border-bottom:5px solid #2aa0d7;
+                  border-bottom:5px solid #f90b43;
               }
           }
       }
@@ -49,7 +59,7 @@
   }
 
   .dropdown.menu .submenu {
-    background-color: #121212;
+    background-color: #ffffff;
     color: #e6e6e6;
     border: 0;
   }
@@ -63,7 +73,7 @@
   }
     &.main-navigation {
         height:80px;
-        box-shadow:0 1px 0 rgba(255,255,255,0.26);
+        background:#ffffff;
         .menu-item {
             height:80px;
         }
@@ -103,9 +113,14 @@
     font-family: $fontComic;
     height:40px;
     line-height:40px;
-    background: #ffffff;
+    background: #0e0e24;
+    color:#ffffff;
     a {
-        color:#000;
+        color:#ffffff;
+        img {
+            margin-right:5px;
+            display:inline-block;
+        }
     }
     .row {
         div:last-of-type {
