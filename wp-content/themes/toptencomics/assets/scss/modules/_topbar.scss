@@ -25,7 +25,7 @@
               padding-bottom: 0;
               font-weight: bold;
               font-size: 16px;
-              font-family: 'Luckiest Guy', cursive;
+              font-family: $fontComic;
               border-bottom: 5px solid transparent;
               border-top:5px solid transparent;
               transition:border-bottom 0.2s ease;
@@ -100,7 +100,7 @@
 }
 
 .tool-bar {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: $fontComic;
     height:40px;
     line-height:40px;
     background: #ffffff;

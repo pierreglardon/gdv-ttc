@@ -31,5 +31,16 @@ body.home {
                 margin-bottom:50px;
             }
         }
+        .arguments-list {
+            .argument {
+                div {
+                    background:#fff;
+                    h3 {
+                        font-size:18px;
+                        font-family: $fontComic;
+                    }
+                }
+            }
+        }
     }
 }
