@@ -20,7 +20,6 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-114x114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
 		<?php wp_head(); ?>
 	</head>
@@ -38,25 +37,27 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="tool-bar">
 			<div class="row">
-				<div class="small-6 columns">
-					<i class="fa fa-search"></i> Recherche
+				<div class="small-6 columns searchHeader">
+					<i class="fa fa-search"></i> <?php get_search_form( $echo = true ) ?>
 				</div>
 				<div class="small-6 columns">
-					<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mini-batman.png" alt="Mon compte" /> Mon compte</a>
+					<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mini-batman.png" alt="Mon compte" /> <span>Mon compte</span></a>
 				</div>
 			</div>
 		</div>
 		<div class="title-bar" data-responsive-toggle="site-navigation">
 			<button class="menu-icon" type="button" data-toggle="offCanvas"></button>
 			<div class="title-bar-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
+				</a>
 			</div>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="row">
-				<div class="small-4 columns">
-					<div class="top-bar-left show-for-medium">
+				<div class="small-4 columns show-for-medium">
+					<div class="top-bar-left">
 						<ul class="logo">
 							<li class="home">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="hiddenBeforeScroll">

@@ -92,10 +92,29 @@
 }
 
 .title-bar {
+    background:#ffffff;
+    color:#000000;
+    height:calc(40px + 1rem);
+    position:relative;
+    .menu-icon {
+        &:after {
+            background-color: #000000;
+            box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+        }
+    }
     @include breakpoint(medium) {
         display: none;
     }
-
+    img {
+        max-height:40px;
+        position: absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+        top:0;
+        margin-top:0.5rem;
+    }
     .title a {
         font-size: 1rem;
         color: #B9B9B9;
@@ -123,14 +142,66 @@
     color:#ffffff;
     a {
         color:#ffffff;
+        display:inline-block;
         img {
             margin-right:5px;
             display:inline-block;
         }
+        span {
+            display:inline-block;
+            position:relative;
+            top:3px;
+        }
     }
     .row {
+        height:40px;
         div:last-of-type {
             text-align:right;
+        }
+        .searchHeader {
+            font-size:0;
+            i, form {
+                display: inline-block;
+                line-height: 40px;
+                height: 40px;
+                vertical-align: top;
+            }
+            i {
+                padding-right:5px;
+                width:20px;
+                font-size:16px;
+            }
+            form {
+                font-size:16px;
+                @include breakpoint(medium down) {
+                    max-width:calc(100% - 20px);
+                }
+                div {
+                    div {
+                        input {
+                            margin:0;
+                            height:40px;
+                            background:transparent;
+                            border:0;
+                            box-sizing: border-box;
+                            color:#fff;
+                            padding-top: 14px;
+                            &:focus {
+                                box-shadow:none;
+                            }
+                        }
+                        input[type=submit]{
+                            display:none;
+                        }
+                        &:first-of-type {
+                            width:100%;
+                        }
+                        &:last-of-type {
+                            display:none;
+                        }
+                    }
+                }
+            }
         }
     }
 }

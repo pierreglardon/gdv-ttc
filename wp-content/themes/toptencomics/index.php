@@ -47,7 +47,7 @@ get_header(); ?>
 	</section>
 	<section class="bigSearch blueLine">
 		<h4>Collectez vos comics dès maintenant !</h4>
-		<div>Search</div>
+		<div><?php get_search_form( $echo = true ) ?></div>
 	</section>
 
 
