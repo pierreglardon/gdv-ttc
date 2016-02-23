@@ -17,33 +17,37 @@
 get_header(); ?>
 <div id="page" role="main">
 
-	<section class="join">
-		<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo-big.png" alt="<?php bloginfo( 'name' ); ?>" />
+	<section class="join blueLine">
+		<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo-big.png" alt="<?php bloginfo( 'name' ); ?>" class="biglogo" />
 		<h2>GÉREZ VOTRE COLLECTION EN QUELQUES CLICS !</h2>
 		<a href="#" class="btn">Rejoignez l'aventure !</a>
+		<section class="arguments-list row text-center">
+			<div class="large-4 columns argument">
+				<div class="medium-8 medium-centered columns">
+					<img src="<?php echo get_template_directory_uri () ?>/assets/images/icons/book.png" alt="Une base de donnée complète" />
+					<h3>Une base de donnée complète</h3>
+					<p>Profitez de <strong>visuels</strong> exclusifs <strong>Marvel</strong> et de toutes les informationssur vos <strong>comics</strong> préférés !</p>
+				</div>
+			</div>
+			<div class="large-4 columns argument">
+				<div class="medium-8 medium-centered columns">
+					<img src="<?php echo get_template_directory_uri () ?>/assets/images/icons/pointer.png" alt="Une interface intuitive" />
+					<h3>Une interface intuitive</h3>
+					<p>Naviguez <strong>rapidement</strong> et <strong>simplement</strong>. Nous mettons tout en oeuvre pour vous procurer la meilleure <strong>expérience</strong> possible !</p>
+				</div>
+			</div>
+			<div class="large-4 columns argument">
+				<div class="medium-8 medium-centered columns">
+					<img src="<?php echo get_template_directory_uri () ?>/assets/images/icons/screens.png" alt="Un outil accessible partout" />
+					<h3>Un outil accessible partout</h3>
+					<p>Gérez votre <strong>collection</strong> où vous le désirez. Rejoignez l'aventure <strong>TTC</strong> depuis votre <strong>ordinateur, tablette et smartphone</strong> !</p>
+				</div>
+			</div>
+		</section>
 	</section>
-	<section class="arguments-list row text-center">
-		<div class="large-4 columns argument">
-			<div class="medium-10 medium-centered columns">
-				<img src="" alt="" />
-				<h3>Une base de donnée complète</h3>
-				<p>Profitez de visuels exclusifs Marvel et de toutes les informationssur vos comics préférés !</p>
-			</div>
-		</div>
-		<div class="large-4 columns argument">
-			<div class="medium-10 medium-centered columns">
-				<img src="" alt="" />
-				<h3>Une interface intuitive</h3>
-				<p>Naviguez rapidement et simplement. Nous mettons tout en oeuvre pour vous procurer la meilleure expérience possible !</p>
-			</div>
-		</div>
-		<div class="large-4 columns argument">
-			<div class="medium-10 medium-centered columns">
-				<img src="" alt="" />
-				<h3>Un outil accessible partout</h3>
-				<p>Gérez votre collection où vous le désirez. Rejoignez l'aventure TTC depuis votre ordinateur, tablette et smartphone !</p>
-			</div>
-		</div>
+	<section class="bigSearch blueLine">
+		<h4>Collectez vos comics dès maintenant !</h4>
+		<div>Search</div>
 	</section>
 
 

@@ -55,7 +55,7 @@
 
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="row">
-				<div class="small-6 columns">
+				<div class="small-4 columns">
 					<div class="top-bar-left show-for-medium">
 						<ul class="logo">
 							<li class="home">
@@ -66,7 +66,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="small-6 columns">
+				<div class="small-8 columns">
 					<div class="top-bar-right">
 						<?php foundationpress_top_bar_r(); ?>
 						<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>
