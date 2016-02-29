@@ -26,6 +26,9 @@
         clear:both;
     }
 }
+.noPadding {
+    padding:0;
+}
 /* home page */
 body.home {
     #page {
@@ -45,10 +48,16 @@ body.home {
             }
             img.biglogo {
                 margin:100px 0 25px;
+                @include breakpoint(medium down) {
+                    padding:0 3rem;
+                }
             }
             h2 {
                 font-size: 25px;
                 margin-bottom:70px;
+                @include breakpoint(medium down) {
+                    padding:0 3rem;
+                }
             }
             .arguments-list {
                 margin-top:140px;
@@ -87,10 +96,57 @@ body.home {
             background:#1cbfe5;
             color:#fff;
             padding-top:208px;
+            padding-bottom:75px;
+            @include breakpoint(medium down) {
+                padding: 2rem 0;
+            }
             h4 {
                 font-family:$fontComic;
                 text-align:center;
                 margin:80px auto 70px;
+                font-size:30px;
+                @include breakpoint(medium down) {
+                    margin:0 auto 2rem;
+                }
+            }
+            form {
+                width:70%;
+                margin:auto;
+                @include breakpoint(medium down) {
+                    width:100%;
+                    padding:0 1rem;
+                }
+                input[type=text] {
+                    border:0;
+                    height:70px;
+                    line-height: 70px;
+                    padding:0 15px;
+                    background-color: rgba(255, 255, 255, 0.5);
+                    font-size:18px;
+                    color:#ffffff;
+                    font-family: $fontComic;
+                    &::-webkit-input-placeholder { color:transparent; }
+                    &::-moz-placeholder { color:transparent; } /* firefox 19+ */
+                    &:-ms-input-placeholder { color:transparent; } /* ie */
+                    &:-moz-placeholder { color:transparent; }
+                    @include breakpoint(medium down) {
+                        height:40px;
+                        line-height: 40px;
+                    }
+                }
+                input[type=submit] {
+                    border:0;
+                    height:70px;
+                    color:#ffffff;
+                    background: #000000;
+                    width:100%;
+                    font-size:22px;
+                    font-family: $fontComic;
+                    @include breakpoint(medium down) {
+                        height:40px;
+                        font-size:16px;
+                    }
+                }
             }
         }
     }

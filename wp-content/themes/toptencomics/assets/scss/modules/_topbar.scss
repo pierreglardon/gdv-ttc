@@ -34,12 +34,30 @@
                     transition:border-bottom 0.2s ease;
                     &:hover {
                         background-color: 0;
-                        border-bottom:5px solid #f90b43;
+                        border-bottom:5px solid $red;
+                        @media screen and (max-width: 40em) {
+                            height:auto;
+                            border-top: none;
+                            border-bottom: none;
+                            border-left:5px solid $red;
+                        }
+                    }
+                    @media screen and (max-width: 40em) {
+                        height:auto;
+                        border-top: none;
+                        border-bottom: none;
+                        line-height: 3rem;
+                        border-left:5px solid transparent;
                     }
                 }
                 &.current-menu-item {
                     a {
-                        border-bottom:5px solid #f90b43;
+                        border-bottom:5px solid $red;
+                        @media screen and (max-width: 40em) {
+                            border-top: none;
+                            border-bottom: none;
+                            border-left:5px solid $red;
+                        }
                     }
                 }
                 &.home {
@@ -78,9 +96,20 @@
         }
         &.main-navigation {
             height:80px;
+            @media screen and (max-width: 40em) {
+                height:auto;
+            }
             background:#ffffff;
             .menu-item {
                 height:80px;
+                @media screen and (max-width: 40em) {
+                    height:auto;
+                }
+            }
+            .small-8.columns {
+                @media screen and (max-width: 40em) {
+                    width:100%;
+                }
             }
         }
 
@@ -147,11 +176,7 @@
         img {
             margin-right:5px;
             display:inline-block;
-        }
-        span {
-            display:inline-block;
-            position:relative;
-            top:3px;
+            margin-bottom: 4px;
         }
     }
     .row {
@@ -186,7 +211,6 @@
                             border:0;
                             box-sizing: border-box;
                             color:#fff;
-                            padding-top: 14px;
                             &:focus {
                                 box-shadow:none;
                             }

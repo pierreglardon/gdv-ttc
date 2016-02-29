@@ -17,7 +17,7 @@
 get_header(); ?>
 <div id="page" role="main">
 
-	<section class="join blueLine">
+	<section class="join">
 		<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo-big.png" alt="<?php bloginfo( 'name' ); ?>" class="biglogo" />
 		<h2>GÉREZ VOTRE COLLECTION EN QUELQUES CLICS !</h2>
 		<a href="#" class="btn">Rejoignez l'aventure !</a>
@@ -45,7 +45,7 @@ get_header(); ?>
 			</div>
 		</section>
 	</section>
-	<section class="bigSearch blueLine">
+	<section class="bigSearch">
 		<h4>Collectez vos comics dès maintenant !</h4>
 		<div><?php get_search_form( $echo = true ) ?></div>
 	</section>
