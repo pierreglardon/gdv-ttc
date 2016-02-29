@@ -49,7 +49,22 @@ get_header(); ?>
 		<h4>Collectez vos comics dès maintenant !</h4>
 		<div><?php get_search_form( $echo = true ) ?></div>
 	</section>
+	<section class="tendancesMarvel">
+		<div class="row">
+			<div class="large-3 columns">
+				<img src="http://placehold.it/268x411" />
+			</div>
+			<div class="large-3 columns">
 
+			</div>
+			<div class="large-3 columns">
+
+			</div>
+			<div class="large-3 columns">
+
+			</div>
+		</div>
+	</section>
 
 		<?php dynamic_sidebar( 'home-widgets' ); ?>
 
