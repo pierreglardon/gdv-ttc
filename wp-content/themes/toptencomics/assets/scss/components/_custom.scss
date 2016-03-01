@@ -115,7 +115,7 @@ body.home {
             background: url(../images/bgblue.jpg) top left;
             position:relative;
             color:#fff;
-            padding-top:208px;
+            padding-top:180px;
             padding-bottom:75px;
             @include breakpoint(medium down) {
                 padding: 2rem 0;
@@ -257,10 +257,10 @@ body.home {
             position:absolute;
             right:0;
             bottom:0;
-            @include breakpoint(medium) {
+            @include breakpoint(medium only) {
                 height:350px;
             }
-            @include breakpoint(small) {
+            @include breakpoint(small only) {
                 display:none;
             }
         }
