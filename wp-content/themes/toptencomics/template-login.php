@@ -20,7 +20,7 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/featured-image' ); ?>
 <div id="page" role="main">
-    <div class="row loginpage cover">
+    <div class="loginpage cover">
         <?php do_action( 'foundationpress_before_content' ); ?>
         <?php if(is_user_logged_in()){  ?>
 
@@ -29,20 +29,10 @@ get_header(); ?>
             else {
                 ?>
                 <?php while ( have_posts() ) : the_post(); ?>
-                    <header>
-                        <h1 class="entry-title"><?php the_title(); ?></h1>
-                    </header>
                     <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
-                    <div class="entry-content">
+                    <div class="row">
                         <?php the_content(); ?>
                     </div>
-                    <footer>
-                        <?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
-                        <p><?php the_tags(); ?></p>
-                    </footer>
-                    <?php do_action( 'foundationpress_page_before_comments' ); ?>
-                    <?php comments_template(); ?>
-                    <?php do_action( 'foundationpress_page_after_comments' ); ?>
                 <?php endwhile;?>
 
                 <?php

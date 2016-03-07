@@ -5,7 +5,7 @@
 }
 .container {
     margin-top: 120px;
-    @include breakpoint(medium down) {
+    @include breakpoint(small down) {
         margin-top:96px;
     }
 
