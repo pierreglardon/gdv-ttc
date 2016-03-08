@@ -57,6 +57,22 @@
         </ul>
     </aside><!-- FIN RÉSEAUX SOCIAUX -->
 
+    <div class="row medium-12 columns">
+        <div class="medium-9 columns results"><!-- RÉSULTATS -->
+            <p>15 COMICS TROUVÉS POUR <a href="#">AVENGERS | 1963-2010</a></p>
+        </div>
+        <div class="medium-3 columns tri"><!-- TRI -->
+            <label for="">Trier par :</label>
+            <select name="select">
+              <option value="value1">Les - récents</option>
+              <option value="value2" selected>Les + récents</option>
+              <option value="value3">Titre A-Z</option>
+              <option value="value3">Titre Z-A</option>
+            </select>
+        </div>
+
+    </div>
+
     <div class="row"><!-- LISTING COMICS DE LA SERIE -->
         <div class="small-6 medium-3 columns">
             <div class="card">
