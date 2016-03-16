@@ -1,13 +1,13 @@
 === WP User Manager ===
 Author URI: https://wpusermanager.com
 Plugin URI: https://wpusermanager.com
-Contributors: alessandro.tesoro, wpusermanager
+Contributors: alessandro.tesoro
 Tags: avatar, avatar upload, author, author profile, community, front-end login, front-end registration, gravatar, custom avatar, login, login page, registration, registration page, admin bar, hide admin bar, custom field registration, custom redirects, custom registration, custom registration form, custom registration page, custom user profile, customize profile, customize registration email, edit profile, front-end user listing, front-end user registration, login redirect, login widget, member directory, minimum password length, minimum password strength, member profile, members profiles, member, member directory, members, profile, profile builder, profiles, registration, restrict content, content restriction, content protection, restrict, sign in, sign up, social login, user, user profile, user profiles, user roles, user-fields, users, captcha, login captcha, registration captcha, frontend registration captcha, frontend login catpcha
 Requires at least: 4.1
 Tested up to: 4.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 
 WP User Manager is the best solution to manage your users and create front-end profiles for your members.
 
@@ -92,6 +92,16 @@ Here [http://docs.wpusermanager.com/](http://docs.wpusermanager.com/)
 View all the screenshots here [https://wpusermanager.com/screenshots/](https://wpusermanager.com/screenshots/)
 
 == Changelog ==
+
+= 1.2.8 =
+
+- fixed: Nickname field displays improperly formatted nickname.
+- fixed: emails are erased and re-created if plugin is disabled and activated again.
+- fixed: minor css enhancements to the fields editor.
+- fixed: profile won't load if username has spaces.
+- fixed: directory pagination not correctly offsetting when adjusting results per page.
+- fixed: directory searches only for currently paginated results if results per page were manually adjusted.
+- fixed: registration form would try to send an email when someone tries to register with an existing username.
 
 = 1.2.7 =
 
