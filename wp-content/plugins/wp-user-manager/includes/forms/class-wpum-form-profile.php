@@ -68,7 +68,7 @@ class WPUM_Form_Profile extends WPUM_Form {
 				return self::$user->user_lastname;
 				break;
 			case 'nickname':
-				return self::$user->nickname;
+				return self::$user->user_nicename;
 				break;
 			case 'user_email':
 				return self::$user->user_email;
