@@ -1,7 +1,7 @@
 section.bloc-issue{
     display: block;
     background-color: grey;
-    height: 685px;
+    height: 675px;
 
     .fil{
         ul{
@@ -52,6 +52,12 @@ section.bloc-issue{
             }
             .title-serie{
             margin-top: 50px;
+
+            .picto-book{
+                margin-right : 20px;
+                margin-bottom: 0px;
+            }
+
                 h2{
                     font-size: 30px;
                     color: $blue;
@@ -79,6 +85,8 @@ section.bloc-issue{
                 line-height: 28px;
                 font-weight: 200;
                 color: #fff;
+                height:125px;
+                overflow-y: scroll;
             }
         }
     }

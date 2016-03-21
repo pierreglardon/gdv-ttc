@@ -26,13 +26,13 @@ get_header(); ?>
 				<div class="medium-8 medium-centered columns">
 					<img src="<?php echo get_template_directory_uri () ?>/assets/images/icons/book.png" alt="Une base de donnée complète" />
 					<h3>Une base de donnée complète</h3>
-					<p>Profitez de <strong>visuels</strong> exclusifs <strong>Marvel</strong> et de toutes les informationssur vos <strong>comics</strong> préférés !</p>
+					<p>Profitez de <strong>visuels</strong><br/> exclusifs <strong>Marvel</strong><br/> et de toutes les informations <br/>sur vos <strong>comics</strong> préférés !</p>
 				</div>
 			</div>
 			<div class="large-4 columns argument">
 				<div class="medium-8 medium-centered columns">
 					<img src="<?php echo get_template_directory_uri () ?>/assets/images/icons/pointer.png" alt="Une interface intuitive" />
-					<h3>Une interface intuitive</h3>
+					<h3>Une interface <br/>intuitive</h3>
 					<p>Naviguez <strong>rapidement</strong> et <strong>simplement</strong>. Nous mettons tout en oeuvre pour vous procurer la meilleure <strong>expérience</strong> possible !</p>
 				</div>
 			</div>
@@ -46,7 +46,8 @@ get_header(); ?>
 		</section>
 	</section>
 	<section class="bigSearch">
-		<h4>Collectez vos comics dès maintenant !</h4>
+
+		<h4><img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/picto-book.png" alt="picstogramme comics" width="65" height="65"/>Collectez vos comics dès maintenant !</h4>
 		<div><?php get_search_form( $echo = true ) ?></div>
 	</section>
 	<section class="tendancesMarvel">

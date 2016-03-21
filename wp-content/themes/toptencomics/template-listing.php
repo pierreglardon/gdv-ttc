@@ -26,7 +26,7 @@
                         <a href="#!">AJOUTER À MA WISHLIST<i class="fa fa-heart-o"></i></a>
                     </div>
                     <div class="title-serie">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/picto-book.png" alt="picstogramme comics" width="35" height="35"/>
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/picto-book.png" alt="picstogramme comics" width="35" height="35" class="picto-book"/>
                         <h2>AVENGERS</h2>
                         <p>(1996 - 1997)</p>
                     </div>
