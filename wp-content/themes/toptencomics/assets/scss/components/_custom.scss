@@ -27,6 +27,11 @@
 }
 #page {
     &.cover {
+        @include breakpoint(large down) {
+            background: url(../images/cover-page.jpg) top center no-repeat;
+            background-size: cover;
+            background-color:#000;
+        }
         &::before {
             background: url(../images/cover-page.jpg) top center no-repeat;
             background-size: 100% 475px;
@@ -36,6 +41,9 @@
             left: 0;
             right: 0;
             z-index: 0;
+            @include breakpoint(large down) {
+                display:none;
+            }
         }
         > * {
             position: relative;
@@ -195,6 +203,7 @@ body.home {
 }
 #footer-container {
     margin-top:0;
+    border-top:0;
     .newsletter {
         background:$blue;
         padding:75px 0;

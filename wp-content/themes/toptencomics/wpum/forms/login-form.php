@@ -18,7 +18,7 @@
 	<?php do_action( 'wpum_top_login_form', $args ); ?>
 
 	<?php wp_login_form( apply_filters( 'wpum_login_shortcode_args', $args ) ); ?>
-	
+
 	<?php do_action( 'wpum_bottom_login_form', $args ); ?>
 
 </div>
