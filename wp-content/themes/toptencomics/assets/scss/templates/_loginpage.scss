@@ -1,0 +1,38 @@
+.loginpageWrapper {
+    height:475px;
+    .loginpage {
+        .logForm {
+            padding:50px;
+            background:#ffffff;
+            margin-top:100px;
+            min-height: 500px;
+            background: url(../images/motif-log.jpg) top center repeat;
+            h2 {
+                font-family: $fontComic;
+                font-size:30px;
+                color:$blue;
+                text-align: center;
+            }
+            label {
+                display:none;
+            }
+            input {
+                height: 70px;
+                border:1px solid black;
+                margin-bottom:50px;
+                padding:15px;
+                &[type=submit] {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .logFormLog {
+
+        }
+        .logFormRegister {
+            .fieldset-comments {
+                display:none;
+            }
+        }
+    }
+}
