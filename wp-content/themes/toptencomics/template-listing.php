@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 
-<div id="page" role="main" class="cover2">
+<div class="cover2">
     <section class="bloc-comics"><!-- BLOC SÉRIE COMICS -->
         <div class=" small-12 columns fil row">
             <ul>
@@ -26,9 +26,9 @@
                         <a href="#!">AJOUTER À MA WISHLIST<i class="fa fa-heart-o"></i></a>
                     </div>
                     <div class="title-serie">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/picto-book.png" alt="picstogramme comics" width="30" height="30"/>
-                        <h2>NOM DE LA SÉRIE DE COMICS</h2>
-                        <p>date de parution de la série</p>
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/picto-book.png" alt="picstogramme comics" width="35" height="35"/>
+                        <h2>AVENGERS</h2>
+                        <p>(1996 - 1997)</p>
                     </div>
                     <div class="description-scroll">
                         <p>
@@ -41,7 +41,7 @@
         </article><!-- FIN DESCRIPTIF DE LA SERIE -->
     </section><!-- FIN BLOC SÉRIE COMICS -->
 
-    <aside class="clearfix social-networks"><!-- RÉSEAUX SOCIAUX -->
+    <aside class="clearfix social-networks row"><!-- RÉSEAUX SOCIAUX -->
         <ul class="float-right">
             <li>
                 <a href="#!"><i class="fa fa-facebook-official"></i></a>
