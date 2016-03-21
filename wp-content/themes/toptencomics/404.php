@@ -8,6 +8,7 @@
  */
 
 get_header(); ?>
+<<<<<<< HEAD
 <a href="https://openclassrooms.com" class="lien"></a>
 	<div class="flex-video 404">
 
@@ -15,5 +16,30 @@ get_header(); ?>
 
   <iframe width="420" height="315" src="https://www.youtube.com/embed/V9gkYw35Vws?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen> hey coouuuuuucoouuuuuuuu</iframe>
 
+=======
+
+<div class="row">
+	<div class="small-12 large-8 columns" role="main">
+
+		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
+			<header>
+				<h1 class="entry-title"><?php _e( 'File Not Found', 'foundationpress' ); ?></h1>
+			</header>
+			<div class="entry-content">
+				<div class="error">
+					<p class="bottom"><?php _e( 'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'foundationpress' ); ?></p>
+				</div>
+				<p><?php _e( 'Please try the following:', 'foundationpress' ); ?></p>
+				<ul>
+					<li><?php _e( 'Check your spelling', 'foundationpress' ); ?></li>
+					<li><?php printf( __( 'Return to the <a href="%s">home page</a>', 'foundationpress' ), home_url() ); ?></li>
+					<li><?php _e( 'Click the <a href="javascript:history.back()">Back</a> button', 'foundationpress' ); ?></li>
+				</ul>
+			</div>
+		</article>
+
+	</div>
+	<?php get_sidebar(); ?>
+>>>>>>> origin/Pierre
 </div>
 <?php get_footer(); ?>
