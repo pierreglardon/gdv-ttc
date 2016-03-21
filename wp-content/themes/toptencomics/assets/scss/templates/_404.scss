@@ -1,4 +1,8 @@
 body.error404 {
+    height:inherit;
+    position: absolute;
+    top: 0;
+    width:100%;
     .site-header{
         display: none;
     }
@@ -11,21 +15,15 @@ body.error404 {
     }
     a{
         display: block;
-        background: red;
-        opacity: 0.1;
-        color: black;
-        margin-top: 200px;
         height:100%;
         width:100%;
-        position:relative;
-
-        z-index:100:
+        position:absolute;
+        z-index:100;
 
     }
     .flex-video{
-            position:absolute;
-
 
     }
+    #wpadminbar {display:none;}
 
 }
