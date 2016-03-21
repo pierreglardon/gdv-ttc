@@ -1,0 +1,31 @@
+body.error404 {
+    .site-header{
+        display: none;
+    }
+    .container{
+        margin-top: 0;
+    }
+
+    #footer-container{
+        display: none;
+    }
+    a{
+        display: block;
+        background: red;
+        opacity: 0.1;
+        color: black;
+        margin-top: 200px;
+        height:100%;
+        width:100%;
+        position:relative;
+
+        z-index:100:
+
+    }
+    .flex-video{
+            position:absolute;
+
+
+    }
+
+}

@@ -1,0 +1,20 @@
+.sites-button {
+  background: #FF6908;
+  font-size: 1.25rem;
+  font-weight: bold;
+  box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
+  border-radius: 3px;
+  border: none;
+}
+.btn {
+    background:$red;
+    padding:1rem 2rem 1rem;
+    font-family: $fontComic;
+    font-size:22px;
+    color:#ffffff;
+    text-transform: uppercase;
+    display:inline-block;
+    &:hover , &:focus, &:active {
+        color:#ffffff;
+    }
+}
