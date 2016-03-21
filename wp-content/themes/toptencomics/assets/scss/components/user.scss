@@ -1,0 +1,82 @@
+#user{
+    padding-top:100px;
+    background:grey;
+    #block-visu-user{
+        margin-bottom: 15px;
+        .user-picture{
+            overflow: hidden;
+            text-align: center;
+            width:210px;
+            height:210px;
+            border-radius: 210px;
+            @include breakpoint(small down) {
+                margin : 0 auto;
+            }
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    #block-text-user{
+        .text-user{
+            @include breakpoint(small down) {
+                margin-left:15px;
+            }
+            h2{
+                font-family:$body-font-family;
+                font-size: 30px;
+                font-weight: 700;
+                color:$white;
+                strong{
+                    font-family: $fontComic;
+                    font-size: 35px;
+                    letter-spacing: 1px;
+                    color:$white;
+                }
+            }
+            p{
+                font-family:$body-font-family;
+                color:$white;
+            }
+            ul{
+                list-style: none;
+                margin-left: 0px;
+                li{
+                    margin-bottom: 7px;
+                    a{
+                        text-decoration: none;
+                        font-family:$body-font-family;
+                        color:$white;
+                        b{
+                            font-weight: 800;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .user-pannel{
+        background:$darkblue;
+        margin-top:100px;
+        margin-bottom: 80px;
+        .contener-user-pannel{
+            @include breakpoint(small down) {
+                margin-left:15px;
+            }
+            a{
+                text-decoration: none;
+                display: block;
+                height:80px;
+                line-height: 80px;
+                font-family:$body-font-family;
+                font-weight: bold;
+                color:$white;
+                text-transform: uppercase;
+                i{
+                    font-size: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
