@@ -1,4 +1,4 @@
-<?php /* Template Name: Listing - PAGE SERIE DE COMICS */ ?>
+<?php /* Template Name: Single - PAGE DU COMICS */ ?>
 
 <?php get_header(); ?>
 
@@ -26,7 +26,6 @@
                         <a href="#!">AJOUTER À MA WISHLIST<i class="fa fa-heart-o"></i></a>
                     </div>
                     <div class="title-serie">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/picto-book.png" alt="picstogramme comics" width="30" height="30"/>
                         <h2>NOM DE LA SÉRIE DE COMICS</h2>
                         <p>date de parution de la série</p>
                     </div>

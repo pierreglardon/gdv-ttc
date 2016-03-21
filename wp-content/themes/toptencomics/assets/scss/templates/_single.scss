@@ -49,13 +49,9 @@ section.bloc-comics{
             }
             .bgblue{
                 float: right;
-                margin-right: 0px;
             }
             .title-serie{
             margin-top: 50px;
-                img{
-                    margin-right : 10px;
-                }
                 h2{
                     font-size: 30px;
                     color: $blue;
@@ -67,8 +63,7 @@ section.bloc-comics{
                     color: #fff;
                     font-weight: 700;
                     font-size: 20px;
-                    margin-left: 15px;
-                    margin-right: 0px;
+                    margin-left: 5px;
                 }
             }
             .description-scroll{
