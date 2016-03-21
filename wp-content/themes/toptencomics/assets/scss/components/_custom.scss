@@ -25,6 +25,25 @@
 .bgblue {
     background-color: $blue;
 }
+#page {
+    &.cover {
+        &::before {
+            background: url(../images/cover-page.jpg) top center no-repeat;
+            background-size: 100% 475px;
+            height: 475px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top:120px;
+            z-index: 0;
+        }
+        > * {
+            position: relative;
+            z-index: 1;
+        }
+    }
+}
 /* home page */
 body.home {
     #page {

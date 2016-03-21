@@ -19,8 +19,8 @@ Template Name: Page de connexion
 get_header(); ?>
 
 <?php get_template_part( 'parts/featured-image' ); ?>
-<div id="page" role="main">
-    <div class="loginpage cover">
+<div id="page" role="main" class="cover loginpageWrapper">
+    <div class="loginpage">
         <?php do_action( 'foundationpress_before_content' ); ?>
         <?php if(is_user_logged_in()){  ?>
 
@@ -28,6 +28,7 @@ get_header(); ?>
             <?php }
             else {
                 ?>
+
                 <?php while ( have_posts() ) : the_post(); ?>
                     <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
                     <div class="row">
