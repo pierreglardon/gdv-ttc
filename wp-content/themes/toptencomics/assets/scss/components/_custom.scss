@@ -185,8 +185,10 @@ body.home {
             h4 {
                 font-family:$fontComic;
                 text-align:center;
-                margin:80px auto 70px;
+                margin:110px auto 50px;
+                letter-spacing: 0.75px;
                 font-size:30px;
+                text-transform: uppercase;
                 @include breakpoint(medium down) {
                     margin:0 auto 2rem;
                 }

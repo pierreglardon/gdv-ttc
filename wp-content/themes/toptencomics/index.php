@@ -58,7 +58,7 @@ get_header(); ?>
 		</section>
 	</section>
 	<section class="bigSearch">
-		<h4>Collectez vos comics dès maintenant !</h4>
+		<h4><i class="fa fa-book"></i> Collectez vos comics dès maintenant !</h4>
 		<div><?php get_search_form( $echo = true ) ?></div>
 	</section>
 	<section class="tendancesMarvel">
