@@ -70,6 +70,7 @@ body.home {
                         color:#000000;
                         min-height:343px;
                         padding-top:2rem;
+                        width: 275px;
                         border-bottom:7px solid #dfdede;
                         box-shadow:0 0 20px rgba(0, 0, 0, 0.15), 0 0 40px rgba(0, 0, 0, 0.2), 0 50px 130px rgba(0, 0, 0, 0.15);
                         @include breakpoint(medium down) {
@@ -78,7 +79,8 @@ body.home {
                             padding-bottom:2rem;
                         }
                         h3 {
-                            font-size:18px;
+                            font-size:22px;
+                            text-transform: uppercase;
                             font-family: $fontComic;
                             line-height: 28px;
                             margin-top: 2rem;
@@ -88,6 +90,7 @@ body.home {
                             font-size:14px;
                             line-height:28px;
                             margin:0;
+                            padding-bottom: 30px;
                         }
                     }
                 }
@@ -107,9 +110,14 @@ body.home {
                 font-family:$fontComic;
                 text-align:center;
                 margin:80px auto 70px;
-                font-size:30px;
+                color: $darkblue;
+                font-size:35px;
+                text-transform: uppercase;
                 @include breakpoint(medium down) {
                     margin:0 auto 2rem;
+                }
+                img{
+                    margin-right: 15px;
                 }
             }
             form {
@@ -124,7 +132,7 @@ body.home {
                     height:70px;
                     line-height: 70px;
                     padding:0 15px;
-                    background-color: rgba(255, 255, 255, 0.5);
+                    background-color: white;
                     font-size:18px;
                     color:#ffffff;
                     font-family: $fontComic;
@@ -141,6 +149,7 @@ body.home {
                     border:0;
                     height:70px;
                     color:#ffffff;
+                    text-transform: uppercase;
                     background: #000000;
                     width:100%;
                     font-size:22px;
@@ -161,8 +170,9 @@ body.home {
                 background-size: cover;
             }
             h3 {
-                font-family: $fontComic;
+                font-family: $lucky;
                 font-size:110px;
+                text-transform: uppercase;
                 color:#dfdede;
                 text-align:center;
                 margin-top:15px;
