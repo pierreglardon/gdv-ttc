@@ -58,7 +58,7 @@ body.home {
         max-width:100%;
         .join {
             background: url(../images/join.jpg) top center no-repeat;
-            height:850px;
+            height:700px;
             text-align: center;
             color:#ffffff;
             position:relative;
@@ -70,7 +70,7 @@ body.home {
                 margin-top:96px;
             }
             img.biglogo {
-                margin:100px 0 25px;
+                margin:80px 0 20px;
                 @include breakpoint(medium down) {
                     padding:0 3rem;
                     margin:50px 0 25px;
@@ -78,20 +78,67 @@ body.home {
             }
             h2 {
                 font-size: 25px;
-                margin-bottom:70px;
+                margin-bottom:0;
                 @include breakpoint(medium down) {
                     padding:0 3rem;
                 }
             }
+            .persoBtn {
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                bottom: 0;
+                div {
+                    position:relative;
+                    z-index: 2;
+                    &:nth-of-type(2) {
+                        position:static;
+                    }
+                    a:first-of-type {
+                        position:relative;
+                        z-index: 2;
+                        margin-top: 70px;
+                        &:hover {
+                            &+.boom {
+                                display:block !important;
+                                position:absolute;
+                                bottom:0;
+                                left:0;
+                                right:0;
+                                z-index: 1;
+                            }
+                        }
+                    }
+                }
+            }
             .arguments-list {
-                margin-top:140px;
+                margin-top:240px;
                 position: relative;
                 z-index: 3;
                 @include breakpoint(medium down) {
                     margin-top:70px;
                 }
                 .argument {
+                    position:relative;
+                    img.perso {
+                        position:absolute;
+                        z-index: 1;
+                        bottom:0;
+                        margin-bottom: 118px;
+                        left:0;
+                        right:0;
+                        margin-left:auto;
+                        margin-right:auto;
+                        &.perso2 {
+                            margin-bottom:158px;
+                        }
+                    }
                     div {
+                        position:relative;
+                        float:none;
+                        z-index: 2;
                         background:#fff;
                         color:#000000;
                         min-height:343px;

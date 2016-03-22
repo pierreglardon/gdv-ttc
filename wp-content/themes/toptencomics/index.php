@@ -20,7 +20,19 @@ get_header(); ?>
 	<section class="join">
 		<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo-big.png" alt="<?php bloginfo( 'name' ); ?>" class="biglogo" />
 		<h2>GÉREZ VOTRE COLLECTION EN QUELQUES CLICS !</h2>
-		<a href="#!" class="btn">Rejoignez l'aventure !</a>
+		<div class="row persoBtn">
+			<div class="large-4 columns">
+				<img src="<?php echo get_template_directory_uri () ?>/assets/images/perso1.png" class="perso perso1" />
+			</div>
+			<div class="large-4 columns">
+				<a href="#!" class="btn">Rejoignez l'aventure !</a>
+				<img src="<?php echo get_template_directory_uri () ?>/assets/images/fire.png" class="boom hide" />
+			</div>
+			<div class="large-4 columns">
+				<img src="<?php echo get_template_directory_uri () ?>/assets/images/perso2.png" class="perso perso2" />
+			</div>
+		</div>
+
 		<section class="arguments-list row text-center">
 			<div class="large-4 columns argument">
 				<div class="medium-8 medium-centered columns">
