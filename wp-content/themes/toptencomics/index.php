@@ -67,12 +67,12 @@ get_header(); ?>
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgred">
+						<div class="square bgblue">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgblue">
+						<div class="square bgred">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
@@ -88,12 +88,12 @@ get_header(); ?>
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgred">
+						<div class="square bgblue">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgblue">
+						<div class="square bgred">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
@@ -109,12 +109,12 @@ get_header(); ?>
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgred">
+						<div class="square bgblue">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgblue">
+						<div class="square bgred">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
@@ -130,12 +130,12 @@ get_header(); ?>
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgred">
+						<div class="square bgblue">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgblue">
+						<div class="square bgred">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>

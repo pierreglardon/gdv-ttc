@@ -90,11 +90,24 @@ body.home {
                 margin-left: auto;
                 margin-right: auto;
                 bottom: 0;
+                @include breakpoint(medium down) {
+                    position:static;
+                }
                 div {
                     position:relative;
                     z-index: 2;
+                    &:nth-of-type(1) {
+                        @include breakpoint(medium down) {
+                            display:none;
+                        }
+                    }
                     &:nth-of-type(2) {
                         position:static;
+                    }
+                    &:nth-of-type(3) {
+                        @include breakpoint(medium down) {
+                            display:none;
+                        }
                     }
                     a:first-of-type {
                         position:relative;
@@ -111,6 +124,11 @@ body.home {
                             }
                         }
                     }
+                    .perso {
+                        @include breakpoint(medium down) {
+                            display:none;
+                        }
+                    }
                 }
             }
             .arguments-list {
@@ -122,19 +140,7 @@ body.home {
                 }
                 .argument {
                     position:relative;
-                    img.perso {
-                        position:absolute;
-                        z-index: 1;
-                        bottom:0;
-                        margin-bottom: 118px;
-                        left:0;
-                        right:0;
-                        margin-left:auto;
-                        margin-right:auto;
-                        &.perso2 {
-                            margin-bottom:158px;
-                        }
-                    }
+
                     div {
                         position:relative;
                         float:none;
