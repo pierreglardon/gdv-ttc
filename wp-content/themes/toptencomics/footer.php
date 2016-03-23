@@ -17,11 +17,7 @@
 	<section class="newsletter">
 		<div class="row">
 			<div class="medium-8 columns">
-<<<<<<< HEAD
-				<h3 class="text-center">Abonnes-toi <br />aux comics de la ligue !</h3>
-=======
 				<h3 class="text-center">ABONNES-TOI <br/>AUX COMICS DE LA LIGUE !</h3>
->>>>>>> Romane
 				<div class="row form">
 					<div class="small-9 columns">
 						<input type="email" class="email" placeholder="Mon super email"/>

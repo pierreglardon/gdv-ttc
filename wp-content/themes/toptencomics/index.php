@@ -58,12 +58,7 @@ get_header(); ?>
 		</section>
 	</section>
 	<section class="bigSearch">
-<<<<<<< HEAD
-		<h4><i class="fa fa-book"></i> Collectez vos comics dès maintenant !</h4>
-=======
-
-		<h4><img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/picto-book.png" alt="picstogramme comics" width="65" height="65"/>Collectez vos comics dès maintenant !</h4>
->>>>>>> Romane
+		<h4><img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/picto-book.png" alt="picstogramme comics" width="65" height="65"/> Collectez vos comics dès maintenant !</h4>
 		<div><?php get_search_form( $echo = true ) ?></div>
 	</section>
 	<section class="tendancesMarvel">
