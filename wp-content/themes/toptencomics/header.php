@@ -21,6 +21,7 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png">
 		<link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
@@ -41,7 +42,7 @@
 					<i class="fa fa-search"></i> <?php get_search_form( $echo = true ) ?>
 				</div>
 				<div class="small-6 columns">
-					<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mini-batman.png" alt="Mon compte" /> <span>Mon compte</span></a>
+					<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mini-batman.png" alt="Mon compte" /> <span>MON COMPTE</span></a>
 				</div>
 			</div>
 		</div>

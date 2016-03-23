@@ -27,7 +27,8 @@
                     padding-top: 0;
                     padding-bottom: 0;
                     font-weight: normal;
-                    font-size: 16px;
+                    text-transform: uppercase;
+                    font-size: 18px;
                     font-family: $fontComic;
                     border-bottom: 5px solid transparent;
                     border-top:5px solid transparent;
@@ -211,6 +212,7 @@
                             border:0;
                             box-sizing: border-box;
                             color:#fff;
+                            text-transform: uppercase;
                             &:focus {
                                 box-shadow:none;
                             }
