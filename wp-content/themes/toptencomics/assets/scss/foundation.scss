@@ -82,14 +82,22 @@
 @import "components/off-canvas";
 @import "components/custom";
 @import "components/card";
+@import "components/user";
 
 // Templates
+@import "templates/search";
 @import "templates/front";
 @import "templates/kitchen-sink";
 @import "templates/page-default";
 @import "templates/page-sidebar-left";
 @import "templates/page-full-width";
 @import "templates/single-post";
+<<<<<<< HEAD
 @import "templates/loginpage";
 @import "templates/listing";
 @import "templates/single";
+=======
+@import "templates/404";
+@import "templates/loginpage";
+@import "templates/listing";
+>>>>>>> Maxence

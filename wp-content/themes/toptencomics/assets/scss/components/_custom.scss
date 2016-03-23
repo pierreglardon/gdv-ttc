@@ -25,6 +25,7 @@
 .bgblue {
     background-color: $blue;
 }
+
 #page {
     &.cover {
         @include breakpoint(large down) {
@@ -51,6 +52,7 @@
         }
     }
 }
+
 /* home page */
 body.home {
     #page {

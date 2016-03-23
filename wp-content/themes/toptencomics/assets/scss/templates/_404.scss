@@ -1,0 +1,29 @@
+body.error404 {
+    height:inherit;
+    position: absolute;
+    top: 0;
+    width:100%;
+    .site-header{
+        display: none;
+    }
+    .container{
+        margin-top: 0;
+    }
+
+    #footer-container{
+        display: none;
+    }
+    a{
+        display: block;
+        height:100%;
+        width:100%;
+        position:absolute;
+        z-index:100;
+
+    }
+    .flex-video{
+
+    }
+    #wpadminbar {display:none;}
+
+}
