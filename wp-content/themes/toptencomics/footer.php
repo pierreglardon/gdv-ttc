@@ -13,7 +13,95 @@
 
 </section>
 <div id="footer-container">
-
+	<section class="tendancesMarvel">
+		<div class="row">
+			<h3>Tendances Marvel</h3>
+			<div class="small-6 medium-3 columns">
+				<div class="card">
+					<div class="tools">
+						<div class="square bgblue">
+							<a href="#!">
+								<i class="fa fa-star-o"></i>
+							</a>
+						</div>
+						<div class="square bgred">
+							<a href="#!">
+								<i class="fa fa-heart-o"></i>
+							</a>
+						</div>
+					</div>
+					<img src="http://placehold.it/268x411" />
+					<div class="comicTitle">
+						<h4>Nom du comic</h4>
+						<h5>Titre du comic</h5>
+					</div>
+				</div>
+			</div>
+			<div class="small-6 medium-3 columns">
+				<div class="card">
+					<div class="tools">
+						<div class="square bgblue">
+							<a href="#!">
+								<i class="fa fa-star-o"></i>
+							</a>
+						</div>
+						<div class="square bgred">
+							<a href="#!">
+								<i class="fa fa-heart-o"></i>
+							</a>
+						</div>
+					</div>
+					<img src="http://placehold.it/268x411" />
+					<div class="comicTitle">
+						<h4>Nom du comic</h4>
+						<h5>Titre du comic</h5>
+					</div>
+				</div>
+			</div>
+			<div class="small-6 medium-3 columns">
+				<div class="card">
+					<div class="tools">
+						<div class="square bgblue">
+							<a href="#!">
+								<i class="fa fa-star-o"></i>
+							</a>
+						</div>
+						<div class="square bgred">
+							<a href="#!">
+								<i class="fa fa-heart-o"></i>
+							</a>
+						</div>
+					</div>
+					<img src="http://placehold.it/268x411" />
+					<div class="comicTitle">
+						<h4>Nom du comic</h4>
+						<h5>Titre du comic</h5>
+					</div>
+				</div>
+			</div>
+			<div class="small-6 medium-3 columns">
+				<div class="card">
+					<div class="tools">
+						<div class="square bgblue">
+							<a href="#!">
+								<i class="fa fa-star-o"></i>
+							</a>
+						</div>
+						<div class="square bgred">
+							<a href="#!">
+								<i class="fa fa-heart-o"></i>
+							</a>
+						</div>
+					</div>
+					<img src="http://placehold.it/268x411" />
+					<div class="comicTitle">
+						<h4>Nom du comic</h4>
+						<h5>Titre du comic</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section class="newsletter">
 		<div class="row">
 			<div class="medium-8 columns">
