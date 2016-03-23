@@ -75,12 +75,6 @@
 </div>
 
 
-
-
-
-
-
-
 <?php do_action( 'foundationpress_layout_end' ); ?>
 
 <?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
