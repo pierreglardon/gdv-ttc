@@ -78,12 +78,12 @@
         <div class="small-6 medium-3 columns">
             <div class="card">
                 <div class="tools">
-                    <div class="square bgred">
+                    <div class="square bgblue">
                         <a href="#!">
                             <i class="fa fa-star-o"></i>
                         </a>
                     </div>
-                    <div class="square bgblue">
+                    <div class="square bgred">
                         <a href="#!">
                             <i class="fa fa-heart-o"></i>
                         </a>
@@ -99,12 +99,12 @@
         <div class="small-6 medium-3 columns">
             <div class="card">
                 <div class="tools">
-                    <div class="square bgred">
+                    <div class="square bgblue">
                         <a href="#!">
                             <i class="fa fa-star-o"></i>
                         </a>
                     </div>
-                    <div class="square bgblue">
+                    <div class="square bgred">
                         <a href="#!">
                             <i class="fa fa-heart-o"></i>
                         </a>
@@ -120,12 +120,12 @@
         <div class="small-6 medium-3 columns">
             <div class="card">
                 <div class="tools">
-                    <div class="square bgred">
+                    <div class="square bgblue">
                         <a href="#!">
                             <i class="fa fa-star-o"></i>
                         </a>
                     </div>
-                    <div class="square bgblue">
+                    <div class="square bgred">
                         <a href="#!">
                             <i class="fa fa-heart-o"></i>
                         </a>
@@ -141,12 +141,12 @@
         <div class="small-6 medium-3 columns">
             <div class="card">
                 <div class="tools">
-                    <div class="square bgred">
+                    <div class="square bgblue">
                         <a href="#!">
                             <i class="fa fa-star-o"></i>
                         </a>
                     </div>
-                    <div class="square bgblue">
+                    <div class="square bgred">
                         <a href="#!">
                             <i class="fa fa-heart-o"></i>
                         </a>
@@ -156,98 +156,98 @@
                 <div class="comicTitle">
                     <h4>Nom du comic</h4>
                     <h5>Titre du comic</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row"><!-- LISTING COMICS DE LA SERIE -->
+            <div class="small-6 medium-3 columns">
+                <div class="card">
+                    <div class="tools">
+                        <div class="square bgblue">
+                            <a href="#!">
+                                <i class="fa fa-star-o"></i>
+                            </a>
+                        </div>
+                        <div class="square bgred">
+                            <a href="#!">
+                                <i class="fa fa-heart-o"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="http://placehold.it/268x411" />
+                    <div class="comicTitle">
+                        <h4>Nom du comic</h4>
+                        <h5>Titre du comic</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="small-6 medium-3 columns">
+                <div class="card">
+                    <div class="tools">
+                        <div class="square bgblue">
+                            <a href="#!">
+                                <i class="fa fa-star-o"></i>
+                            </a>
+                        </div>
+                        <div class="square bgred">
+                            <a href="#!">
+                                <i class="fa fa-heart-o"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="http://placehold.it/268x411" />
+                    <div class="comicTitle">
+                        <h4>Nom du comic</h4>
+                        <h5>Titre du comic</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="small-6 medium-3 columns">
+                <div class="card">
+                    <div class="tools">
+                        <div class="square bgblue">
+                            <a href="#!">
+                                <i class="fa fa-star-o"></i>
+                            </a>
+                        </div>
+                        <div class="square bgred">
+                            <a href="#!">
+                                <i class="fa fa-heart-o"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="http://placehold.it/268x411" />
+                    <div class="comicTitle">
+                        <h4>Nom du comic</h4>
+                        <h5>Titre du comic</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="small-6 medium-3 columns">
+                <div class="card">
+                    <div class="tools">
+                        <div class="square bgblue">
+                            <a href="#!">
+                                <i class="fa fa-star-o"></i>
+                            </a>
+                        </div>
+                        <div class="square bgred">
+                            <a href="#!">
+                                <i class="fa fa-heart-o"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="http://placehold.it/268x411" />
+                    <div class="comicTitle">
+                        <h4>Nom du comic</h4>
+                        <h5>Titre du comic</h5>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="row"><!-- LISTING COMICS DE LA SERIE -->
-    <div class="small-6 medium-3 columns">
-        <div class="card">
-            <div class="tools">
-                <div class="square bgred">
-                    <a href="#!">
-                        <i class="fa fa-star-o"></i>
-                    </a>
-                </div>
-                <div class="square bgblue">
-                    <a href="#!">
-                        <i class="fa fa-heart-o"></i>
-                    </a>
-                </div>
-            </div>
-            <img src="http://placehold.it/268x411" />
-            <div class="comicTitle">
-                <h4>Nom du comic</h4>
-                <h5>Titre du comic</h5>
-            </div>
-        </div>
-    </div>
-    <div class="small-6 medium-3 columns">
-        <div class="card">
-            <div class="tools">
-                <div class="square bgred">
-                    <a href="#!">
-                        <i class="fa fa-star-o"></i>
-                    </a>
-                </div>
-                <div class="square bgblue">
-                    <a href="#!">
-                        <i class="fa fa-heart-o"></i>
-                    </a>
-                </div>
-            </div>
-            <img src="http://placehold.it/268x411" />
-            <div class="comicTitle">
-                <h4>Nom du comic</h4>
-                <h5>Titre du comic</h5>
-            </div>
-        </div>
-    </div>
-    <div class="small-6 medium-3 columns">
-        <div class="card">
-            <div class="tools">
-                <div class="square bgred">
-                    <a href="#!">
-                        <i class="fa fa-star-o"></i>
-                    </a>
-                </div>
-                <div class="square bgblue">
-                    <a href="#!">
-                        <i class="fa fa-heart-o"></i>
-                    </a>
-                </div>
-            </div>
-            <img src="http://placehold.it/268x411" />
-            <div class="comicTitle">
-                <h4>Nom du comic</h4>
-                <h5>Titre du comic</h5>
-            </div>
-        </div>
-    </div>
-    <div class="small-6 medium-3 columns">
-        <div class="card">
-            <div class="tools">
-                <div class="square bgred">
-                    <a href="#!">
-                        <i class="fa fa-star-o"></i>
-                    </a>
-                </div>
-                <div class="square bgblue">
-                    <a href="#!">
-                        <i class="fa fa-heart-o"></i>
-                    </a>
-                </div>
-            </div>
-            <img src="http://placehold.it/268x411" />
-            <div class="comicTitle">
-                <h4>Nom du comic</h4>
-                <h5>Titre du comic</h5>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+
 
 <?php get_footer(); ?>
