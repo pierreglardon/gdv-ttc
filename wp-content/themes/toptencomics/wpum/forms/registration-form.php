@@ -14,10 +14,7 @@
 
 	<?php do_action( 'wpum_before_register_form_template', $atts ); ?>
 
-<<<<<<< HEAD
-=======
 	<h2>Rejoignez la ligue !</h2>
->>>>>>> origin/Pierre
 	<form action="#" method="post" id="wpum-register-<?php echo esc_attr( $atts['form_id'] );?>" class="wpum-registration-form" name="wpum-register-<?php echo esc_attr( $atts['form_id'] );?>" enctype="multipart/form-data">
 
 		<?php do_action( 'wpum_before_inside_register_form_template', $atts ); ?>
