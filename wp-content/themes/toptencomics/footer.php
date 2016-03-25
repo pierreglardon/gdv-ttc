@@ -19,12 +19,12 @@
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgblue">
+						<div class="square bgblue fav">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgred">
+						<div class="square bgred like">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
@@ -40,12 +40,12 @@
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgblue">
+						<div class="square bgblue fav">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgred">
+						<div class="square bgred like">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
@@ -61,12 +61,12 @@
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgblue">
+						<div class="square bgblue fav">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgred">
+						<div class="square bgred like">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
@@ -82,12 +82,12 @@
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgblue">
+						<div class="square bgblue fav">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgred">
+						<div class="square bgred like">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>

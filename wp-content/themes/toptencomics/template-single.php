@@ -21,11 +21,11 @@
 
             <aside class="small-12 medium-7 columns"><!-- TEXTE -->
                 <div class="texte-serie">
-                    <div class="square bgred btn">
-                        <a href="#!">AJOUTER À MA COLLECTION<i class="fa fa-star-o"></i></a>
+                    <div class="square bgred fav btn">
+                        <a href="#!">Ajouter à ma collection<i class="fa fa-star-o"></i></a>
                     </div>
-                    <div class="square bgblue btn">
-                        <a href="#!">AJOUTER À MA WISHLIST<i class="fa fa-heart-o"></i></a>
+                    <div class="square bgblue like btn">
+                        <a href="#!">Ajouter à ma wishlist<i class="fa fa-heart-o"></i></a>
                     </div>
                     <div class="title-serie">
                         <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/picto-book.png" alt="pictogramme comics" width="35" height="35" class="picto-book"/>
@@ -84,12 +84,12 @@
         <div class="small-6 medium-3 columns">
             <div class="card">
                 <div class="tools">
-                    <div class="square bgblue">
+                    <div class="square bgblue fav">
                         <a href="#!">
                             <i class="fa fa-star-o"></i>
                         </a>
                     </div>
-                    <div class="square bgred">
+                    <div class="square bgred like">
                         <a href="#!">
                             <i class="fa fa-heart-o"></i>
                         </a>
@@ -105,12 +105,12 @@
         <div class="small-6 medium-3 columns">
             <div class="card">
                 <div class="tools">
-                    <div class="square bgblue">
+                    <div class="square bgblue fav">
                         <a href="#!">
                             <i class="fa fa-star-o"></i>
                         </a>
                     </div>
-                    <div class="square bgred">
+                    <div class="square bgred like">
                         <a href="#!">
                             <i class="fa fa-heart-o"></i>
                         </a>
@@ -126,12 +126,12 @@
         <div class="small-6 medium-3 columns">
             <div class="card">
                 <div class="tools">
-                    <div class="square bgblue">
+                    <div class="square bgblue fav">
                         <a href="#!">
                             <i class="fa fa-star-o"></i>
                         </a>
                     </div>
-                    <div class="square bgred">
+                    <div class="square bgred like">
                         <a href="#!">
                             <i class="fa fa-heart-o"></i>
                         </a>
@@ -147,12 +147,12 @@
         <div class="small-6 medium-3 columns">
             <div class="card">
                 <div class="tools">
-                    <div class="square bgblue">
+                    <div class="square bgblue fav">
                         <a href="#!">
                             <i class="fa fa-star-o"></i>
                         </a>
                     </div>
-                    <div class="square bgred">
+                    <div class="square bgred like">
                         <a href="#!">
                             <i class="fa fa-heart-o"></i>
                         </a>
