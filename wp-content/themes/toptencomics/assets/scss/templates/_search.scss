@@ -12,6 +12,10 @@
       margin-top:90px;
       img{
         margin-right:15px;
+        @include breakpoint(medium down) {
+            display:block;
+            margin:auto;
+        }
       }
     }
   }
