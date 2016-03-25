@@ -1,7 +1,7 @@
-section.bloc-comics{
+section.bloc-issue{
     display: block;
     background-color: grey;
-    height: 500px;
+    height: 675px;
 
     .fil{
         ul{
@@ -52,6 +52,12 @@ section.bloc-comics{
             }
             .title-serie{
             margin-top: 50px;
+
+            .picto-book{
+                margin-right : 20px;
+                margin-bottom: 0px;
+            }
+
                 h2{
                     font-size: 30px;
                     color: $blue;
@@ -65,6 +71,13 @@ section.bloc-comics{
                     font-size: 20px;
                     margin-left: 5px;
                 }
+                h3{
+                    font-size: 30px;
+                    color: $blue;
+                    font-family: $fontComic;
+                    display: inline-block;
+
+                }
             }
             .description-scroll{
                 margin-top: 30px;
@@ -72,6 +85,8 @@ section.bloc-comics{
                 line-height: 28px;
                 font-weight: 200;
                 color: #fff;
+                height:125px;
+                overflow-y: scroll;
             }
         }
     }
@@ -123,4 +138,37 @@ aside.social-networks{
         padding: none;
 
     }
+}
+
+.carac-liste{
+    ul{
+        list-style: none;
+        border-left: 3px solid white;
+        padding-left: 15px;
+
+        li{
+            font-size:20px;
+            color: white;
+            strong{
+                font-family: $fontComic;
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+.variantes{
+
+    margin-top:35px;
+    margin-left: 30px;
+
+    a{
+        color: #1f1f1f;
+        font-size: 18px;
+        i{
+            color: $blue;
+            margin-left: 20px;
+        }
+    }
+
 }

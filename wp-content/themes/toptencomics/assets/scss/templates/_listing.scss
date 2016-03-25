@@ -53,8 +53,10 @@ section.bloc-comics{
             }
             .title-serie{
             margin-top: 50px;
-                img{
-                    margin-right : 10px;
+
+                .picto-book{
+                    margin-right : 20px;
+                    margin-bottom: 0px;
                 }
                 h2{
                     font-size: 30px;
@@ -67,8 +69,7 @@ section.bloc-comics{
                     color: #fff;
                     font-weight: 700;
                     font-size: 20px;
-                    margin-left: 15px;
-                    margin-right: 0px;
+
                 }
             }
             .description-scroll{
@@ -77,6 +78,8 @@ section.bloc-comics{
                 line-height: 28px;
                 font-weight: 200;
                 color: #fff;
+                height:125px;
+                overflow-y: scroll;
             }
         }
     }
