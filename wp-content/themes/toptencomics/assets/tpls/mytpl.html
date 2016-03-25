@@ -1,0 +1,51 @@
+<script id="series" type="html/text">
+{{#bidule}}
+<div class="small-6 medium-3 columns end">
+    <div class="card">
+        <div class="tools">
+            <div class="square bgred">
+                <a href="#!">
+                    <i class="fa fa-star-o"></i>
+                </a>
+            </div>
+            <div class="square bgblue">
+                <a href="#!">
+                    <i class="fa fa-heart-o"></i>
+                </a>
+            </div>
+        </div>
+        <a href="./comics/#{{id}}">
+        <img src="{{thumbnail.path}}.jpg" />
+        <div class="comicTitle">
+          <h4>{{title}}</h4>
+        </div>
+        </a>
+    </div>
+  </div>
+{{/bidule}}
+</script>
+
+<script id="comics" type="html/text">
+{{#bidule}}
+<div class="small-6 medium-3 columns end">
+    <div class="card">
+        <div class="tools">
+            <div class="square bgred">
+                <a href="#!">
+                    <i class="fa fa-star-o"></i>
+                </a>
+            </div>
+            <div class="square bgblue">
+                <a href="#!">
+                    <i class="fa fa-heart-o"></i>
+                </a>
+            </div>
+        </div>
+        <img src="{{thumbnail.path}}.jpg" />
+        <div class="comicTitle">
+          <h4>{{title}}</h4>
+        </div>
+    </div>
+</div>
+{{/bidule}}
+</script>
