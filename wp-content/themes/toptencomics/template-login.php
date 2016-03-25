@@ -28,7 +28,6 @@ get_header(); ?>
             <?php }
             else {
                 ?>
-
                 <?php while ( have_posts() ) : the_post(); ?>
                     <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
                     <div class="row">

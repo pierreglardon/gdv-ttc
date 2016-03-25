@@ -1,0 +1,174 @@
+section.bloc-issue{
+    display: block;
+    background-color: grey;
+    height: 675px;
+
+    .fil{
+        ul{
+            margin: 0px;
+            li{
+                display: inline-block;
+                font-size: 12px;
+                padding-right: 15px;
+                margin: 45px 0px;
+                color: #fff;
+                a{
+                    color: #fff;
+                }
+                i{
+                    color: $blue;
+                }
+            }
+        }
+    }
+    .fiche-serie{
+        margin-bottom: 80px;
+
+        img{
+            float: left;
+            margin-left: 0px;
+            z-index: 5px;
+            margin-bottom: 70px;
+        }
+        .texte-serie{
+            display: inline-block;
+
+            .btn{
+
+                a{
+                    display: inline-block;
+                    font-family: roboto;
+                    color: #fff;
+                    font-size: 16px;
+
+                }
+                i{
+                    padding-left: 20px;
+                    font-size: 25px;
+                }
+            }
+            .bgblue{
+                float: right;
+            }
+            .title-serie{
+            margin-top: 50px;
+
+            .picto-book{
+                margin-right : 20px;
+                margin-bottom: 0px;
+            }
+
+                h2{
+                    font-size: 30px;
+                    color: $blue;
+                    font-family: $fontComic;
+                    display: inline-block;
+                }
+                p{
+                    display: inline-block;
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 20px;
+                    margin-left: 5px;
+                }
+                h3{
+                    font-size: 30px;
+                    color: $blue;
+                    font-family: $fontComic;
+                    display: inline-block;
+
+                }
+            }
+            .description-scroll{
+                margin-top: 30px;
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 200;
+                color: #fff;
+                height:125px;
+                overflow-y: scroll;
+            }
+        }
+    }
+}
+aside.social-networks{
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 25px;
+        float: right;
+        li{
+            display: inline-block;
+            a{
+                i{
+                    font-size: 30px;
+                    padding-left: 30px;
+                    color: $darkblue;
+
+                }
+
+            }
+        }
+    }
+}
+.results{
+    p{
+        a{
+
+        }
+    }
+}
+
+.tri{
+
+    padding: 0px;
+
+    label{
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 700;
+
+    }
+    select{
+        width: 180px;
+        display: inline-block;
+        float: right;
+        padding: none;
+
+    }
+}
+
+.carac-liste{
+    ul{
+        list-style: none;
+        border-left: 3px solid white;
+        padding-left: 15px;
+
+        li{
+            font-size:20px;
+            color: white;
+            strong{
+                font-family: $fontComic;
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+.variantes{
+
+    margin-top:35px;
+    margin-left: 30px;
+
+    a{
+        color: #1f1f1f;
+        font-size: 18px;
+        i{
+            color: $blue;
+            margin-left: 20px;
+        }
+    }
+
+}
