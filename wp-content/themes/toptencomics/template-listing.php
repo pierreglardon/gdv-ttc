@@ -7,8 +7,8 @@
         <div class=" small-12 columns fil row">
             <ul>
                 <li><a href="#">RÉSULTATS</li></a>
-                <li><a href="#"><i class="fa fa-angle-left"></i></li></a>
-                <li><a href="#">NOM DE LA SÉRIE DE COMICS</li></a>
+                <li><a href="#"><i class="fa fa-angle-right"></i></li></a>
+                <li><a href="http://localhost/gdv-ttc/comics">NOM DE LA SÉRIE DE COMICS</li></a>
             </ul>
         </div>
 
@@ -65,10 +65,10 @@
         <div class="medium-3 columns tri"><!-- TRI -->
             <label for="">Trier par :</label>
             <select name="select">
-              <option value="value1">Les - récents</option>
-              <option value="value2" selected>Les + récents</option>
-              <option value="value3">Titre A-Z</option>
-              <option value="value3">Titre Z-A</option>
+                <option value="value1">Les - récents</option>
+                <option value="value2" selected>Les + récents</option>
+                <option value="value3">Titre A-Z</option>
+                <option value="value3">Titre Z-A</option>
             </select>
         </div>
 
@@ -89,10 +89,10 @@
                         </a>
                     </div>
                 </div>
-                <img src="http://placehold.it/268x411" />
+                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
                 <div class="comicTitle">
-                    <h4>Nom du comic</h4>
-                    <h5>Titre du comic</h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
                 </div>
             </div>
         </div>
@@ -110,10 +110,10 @@
                         </a>
                     </div>
                 </div>
-                <img src="http://placehold.it/268x411" />
+                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
                 <div class="comicTitle">
-                    <h4>Nom du comic</h4>
-                    <h5>Titre du comic</h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
                 </div>
             </div>
         </div>
@@ -131,10 +131,10 @@
                         </a>
                     </div>
                 </div>
-                <img src="http://placehold.it/268x411" />
+                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
                 <div class="comicTitle">
-                    <h4>Nom du comic</h4>
-                    <h5>Titre du comic</h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
                 </div>
             </div>
         </div>
@@ -152,96 +152,94 @@
                         </a>
                     </div>
                 </div>
-                <img src="http://placehold.it/268x411" />
+                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
                 <div class="comicTitle">
-                    <h4>Nom du comic</h4>
-                    <h5>Titre du comic</h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
                 </div>
             </div>
         </div>
-        <div class="row"><!-- LISTING COMICS DE LA SERIE -->
-            <div class="small-6 medium-3 columns">
-                <div class="card">
-                    <div class="tools">
-                        <div class="square bgblue">
-                            <a href="#!">
-                                <i class="fa fa-star-o"></i>
-                            </a>
-                        </div>
-                        <div class="square bgred">
-                            <a href="#!">
-                                <i class="fa fa-heart-o"></i>
-                            </a>
-                        </div>
+        <div class="small-6 medium-3 columns">
+            <div class="card">
+                <div class="tools">
+                    <div class="square bgblue">
+                        <a href="#!">
+                            <i class="fa fa-star-o"></i>
+                        </a>
                     </div>
-                    <img src="http://placehold.it/268x411" />
-                    <div class="comicTitle">
-                        <h4>Nom du comic</h4>
-                        <h5>Titre du comic</h5>
+                    <div class="square bgred">
+                        <a href="#!">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="small-6 medium-3 columns">
-                <div class="card">
-                    <div class="tools">
-                        <div class="square bgblue">
-                            <a href="#!">
-                                <i class="fa fa-star-o"></i>
-                            </a>
-                        </div>
-                        <div class="square bgred">
-                            <a href="#!">
-                                <i class="fa fa-heart-o"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <img src="http://placehold.it/268x411" />
-                    <div class="comicTitle">
-                        <h4>Nom du comic</h4>
-                        <h5>Titre du comic</h5>
-                    </div>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <div class="comicTitle">
+                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
                 </div>
             </div>
-            <div class="small-6 medium-3 columns">
-                <div class="card">
-                    <div class="tools">
-                        <div class="square bgblue">
-                            <a href="#!">
-                                <i class="fa fa-star-o"></i>
-                            </a>
-                        </div>
-                        <div class="square bgred">
-                            <a href="#!">
-                                <i class="fa fa-heart-o"></i>
-                            </a>
-                        </div>
+        </div>
+        <div class="small-6 medium-3 columns">
+            <div class="card">
+                <div class="tools">
+                    <div class="square bgblue">
+                        <a href="#!">
+                            <i class="fa fa-star-o"></i>
+                        </a>
                     </div>
-                    <img src="http://placehold.it/268x411" />
-                    <div class="comicTitle">
-                        <h4>Nom du comic</h4>
-                        <h5>Titre du comic</h5>
+                    <div class="square bgred">
+                        <a href="#!">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
                     </div>
                 </div>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <div class="comicTitle">
+                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                </div>
             </div>
-            <div class="small-6 medium-3 columns">
-                <div class="card">
-                    <div class="tools">
-                        <div class="square bgblue">
-                            <a href="#!">
-                                <i class="fa fa-star-o"></i>
-                            </a>
-                        </div>
-                        <div class="square bgred">
-                            <a href="#!">
-                                <i class="fa fa-heart-o"></i>
-                            </a>
-                        </div>
+        </div>
+        <div class="small-6 medium-3 columns">
+            <div class="card">
+                <div class="tools">
+                    <div class="square bgblue">
+                        <a href="#!">
+                            <i class="fa fa-star-o"></i>
+                        </a>
                     </div>
-                    <img src="http://placehold.it/268x411" />
-                    <div class="comicTitle">
-                        <h4>Nom du comic</h4>
-                        <h5>Titre du comic</h5>
+                    <div class="square bgred">
+                        <a href="#!">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
                     </div>
+                </div>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <div class="comicTitle">
+                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                </div>
+            </div>
+        </div>
+        <div class="small-6 medium-3 columns">
+            <div class="card">
+                <div class="tools">
+                    <div class="square bgblue">
+                        <a href="#!">
+                            <i class="fa fa-star-o"></i>
+                        </a>
+                    </div>
+                    <div class="square bgred">
+                        <a href="#!">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
+                    </div>
+                </div>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <div class="comicTitle">
+                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
                 </div>
             </div>
         </div>

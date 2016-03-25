@@ -32,19 +32,21 @@ section.bloc-issue{
         }
         .texte-serie{
             display: inline-block;
-
             .btn{
-
                 a{
                     display: inline-block;
                     font-family: roboto;
                     color: #fff;
                     font-size: 16px;
+                    font-weight:bold;
+                    text-transform: uppercase;
 
                 }
                 i{
                     padding-left: 20px;
                     font-size: 25px;
+                    display:inline-block;
+                    vertical-align: middle;
                 }
             }
             .bgblue{
@@ -63,6 +65,7 @@ section.bloc-issue{
                     color: $blue;
                     font-family: $fontComic;
                     display: inline-block;
+                    text-transform: uppercase;
                 }
                 p{
                     display: inline-block;
@@ -152,6 +155,7 @@ aside.social-networks{
             strong{
                 font-family: $fontComic;
                 font-size: 22px;
+                text-transform: uppercase;
             }
         }
     }

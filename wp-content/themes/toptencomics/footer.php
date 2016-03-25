@@ -30,10 +30,10 @@
 							</a>
 						</div>
 					</div>
-					<img src="http://placehold.it/268x411" />
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
 					<div class="comicTitle">
-						<h4>Nom du comic</h4>
-						<h5>Titre du comic</h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
 					</div>
 				</div>
 			</div>
@@ -51,10 +51,10 @@
 							</a>
 						</div>
 					</div>
-					<img src="http://placehold.it/268x411" />
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
 					<div class="comicTitle">
-						<h4>Nom du comic</h4>
-						<h5>Titre du comic</h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
 					</div>
 				</div>
 			</div>
@@ -72,10 +72,10 @@
 							</a>
 						</div>
 					</div>
-					<img src="http://placehold.it/268x411" />
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
 					<div class="comicTitle">
-						<h4>Nom du comic</h4>
-						<h5>Titre du comic</h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
 					</div>
 				</div>
 			</div>
@@ -93,10 +93,10 @@
 							</a>
 						</div>
 					</div>
-					<img src="http://placehold.it/268x411" />
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
 					<div class="comicTitle">
-						<h4>Nom du comic</h4>
-						<h5>Titre du comic</h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
 					</div>
 				</div>
 			</div>
