@@ -25,7 +25,7 @@ get_header(); ?>
 		<div class="small-12 medium-6 block-info-reseaux columns">
 			<div class="text-left block-information">
 				<h5>téléphone :</h5>
-				<p>03 87 45 0606</p>
+				<p>03 87 45 06 06</p>
 				<h5>adresse :</h5>
 				<p>361 Place du parc des animaux<br>67000 Strasbourg<br> FRANCE</p>
 				<h5>Mail :</h5>

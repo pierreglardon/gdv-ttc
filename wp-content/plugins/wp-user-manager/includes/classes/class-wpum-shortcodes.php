@@ -481,6 +481,14 @@ class WPUM_Shortcodes {
 
 		// Prepare Pagination
 		$number = wpum_directory_profiles_per_page( $directory_id );
+
+		// Prepare amount sorter.
+		$can_sort = wpum_directory_display_amount_sorter( $directory_id );
+
+		if( $can_sort && isset( $_GET['amount'] ) && is_numeric( $_GET['amount'] ) ) {
+			$number = sanitize_key( $_GET['amount'] );
+		}
+
 		$paged  = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
 		if( $paged == 1 ) {
@@ -489,12 +497,18 @@ class WPUM_Shortcodes {
 			$offset = ( $paged -1 ) * $number;
     }
 
-		// Make the query
-		$args = array(
-			'number' => $number,
-			'offset' => $offset,
-			'fields' => wpum_get_user_query_fields()
-		);
+		// Prepare the query.
+		$args = array();
+
+		$args['number'] = $number;
+		$args['offset'] = $offset;
+
+		// Trigger search and remove offset.
+		if( wpum_directory_has_search_form( $directory_id ) && isset( $_POST['search_user'] ) ) {
+			$args['search'] = sanitize_text_field( $_POST['search_user'] );
+			$args['offset'] = null;
+		}
+
 		$user_query = new WP_User_Query( apply_filters( "wpum_user_directory_query", $args, $directory_id ) );
 
 		// Detect which template we should be using.
@@ -508,8 +522,9 @@ class WPUM_Shortcodes {
 		// Build Pagination Count
 		// Modify $number var if a custom amount is set from the frontend
 		// This updates the pagination too.
-		if( isset( $_GET['amount'] ) && is_numeric( $_GET['amount'] ) )
+		if( isset( $_GET['amount'] ) && is_numeric( $_GET['amount'] ) ) {
 			$number = $_GET['amount'];
+		}
 
 		$total_users = $user_query->total_users;
 		$total_pages = ceil( $total_users / $number );

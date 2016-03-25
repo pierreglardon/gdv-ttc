@@ -16,5 +16,9 @@
     display:inline-block;
     &:hover , &:focus, &:active {
         color:#ffffff;
+        background: url('../../assets/images/hover-cta-home.png');
+        transition: all ease 0.4s;
+        -webkit-transition: all ease 0.4s;
+        -moz-transition: all ease 0.4s;
     }
 }
