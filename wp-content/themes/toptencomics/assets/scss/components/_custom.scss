@@ -254,6 +254,7 @@ body.home {
     border-top:0;
     .tendancesMarvel {
         background: url(../images/tendances.jpg) bottom center no-repeat;
+        background-size:cover;
         padding-top:100px;
         padding-bottom:150px;
         @include breakpoint(medium down) {
