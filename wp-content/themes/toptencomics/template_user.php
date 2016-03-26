@@ -15,9 +15,9 @@ get_header(); ?>
                  <h2>Bienvenue <strong>Peter pan !</strong></h2>
                  <p>Vous possédez actuellement :</p>
                  <ul>
-                     <li><a href="#"><b>63 Comics</b></a></li>
-                     <li><a href="#"><b>63</b> dans votre <b>Collection</b></a></li>
-                     <li><a href="#"><b>35</b> dans votre <b>Wishlist</b></a></li>
+                     <li><a href="#"><i class="fa fa-book"></i> <b>63 Comics</b></a></li>
+                     <li><a href="#"><i class="fa fa-star"></i> <b>63</b> dans votre <b>Collection</b></a></li>
+                     <li><a href="#"><i class="fa fa-heart"></i> <b>35</b> dans votre <b>Wishlist</b></a></li>
                  </ul>
              </div>
          </article>
@@ -26,16 +26,14 @@ get_header(); ?>
      <div class="user-pannel">
          <div class="row contener-user-pannel">
              <article class="large-4 small-12 columns text-left ">
-                 <a href="#"><i class="fa fa-star-o"></i>ma collection</a>
-
+                 <a href="#"><i class="fa fa-star-o"></i>Ma collection</a>
+             </article>
+             <article class="large-4 small-12 columns text-left ">
+                 <a href="#"><i class="fa fa-heart-o"></i>Ma wishlist</a>
 
              </article>
              <article class="large-4 small-12 columns text-left ">
-                 <a href="#"><i class="fa fa-heart-o"></i>ma wishlist</a>
-
-             </article>
-             <article class="large-4 small-12 columns text-left ">
-                 <a href="#"><i class="fa fa-cog"></i>GÉRER MON COMPTE</a>
+                 <a href="#"><i class="fa fa-cog"></i>Gérer mon compte</a>
              </article>
 
          </div>
