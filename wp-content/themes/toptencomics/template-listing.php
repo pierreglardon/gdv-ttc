@@ -14,7 +14,7 @@
 
         <article class="row fiche-serie"><!-- DESCRIPTIF DE LA SERIE -->
             <aside class="small-12 medium-5 columns"><!-- IMG -->
-                <img src="http://placehold.it/490x490">
+                <img src="http://placehold.it/490x490" class="main-img">
             </aside>
 
             <aside class="small-12 medium-7 columns"><!-- TEXTE -->
@@ -58,7 +58,7 @@
         </ul>
     </aside><!-- FIN RÉSEAUX SOCIAUX -->
 
-    <div class="row medium-12 columns">
+    <div class="row columns">
         <div class="medium-9 columns results"><!-- RÉSULTATS -->
             <p>15 COMICS TROUVÉS POUR <a href="#">AVENGERS | 1963-2010</a></p>
         </div>

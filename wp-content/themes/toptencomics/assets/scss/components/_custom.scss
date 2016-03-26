@@ -425,3 +425,27 @@ body.home {
         font-size:14px;
     }
 }
+.fil{
+    ul{
+        margin: 45px 0px;
+        @include breakpoint(medium down) {
+            margin: 20px 0px;
+        }
+        li{
+            display: inline-block;
+            font-size: 12px;
+            padding-right: 15px;
+            color: #fff;
+            margin: 0px;
+            &:last-of-type{
+                font-weight:bold;
+            }
+            a{
+                color: #fff;
+            }
+            i{
+                color: $blue;
+            }
+        }
+    }
+}
