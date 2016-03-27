@@ -58,7 +58,7 @@ get_header(); ?>
 
 		<?php if ( is_single() ) { ?>
 			<div class="related-posts wrapper row clearfix">
-				<h3>Ces articles pourraient également vous plaire :</h3>
+				<h3 class="small-12 columns">Ces articles pourraient également vous plaire :</h3>
 				<?php $categories = get_the_category();
 					foreach ($categories as $category) {
 						$cat = $category->cat_ID;

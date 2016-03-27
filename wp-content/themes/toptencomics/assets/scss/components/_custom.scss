@@ -341,7 +341,7 @@ body.home {
         background:#0e0e24;
         padding:80px 0 40px;
         color:#ffffff;
-        @include breakpoint(small) {
+        @include breakpoint(small down) {
             padding:30px 0;
         }
         ul {
@@ -359,11 +359,15 @@ body.home {
             }
             ul {
                 li {
+                    @include grid-column(4);
                     font-family:$fontComic;
-                    font-size:18px;
-                    margin-bottom:10px;
+                    font-size:16px;
+                    margin-bottom:18px;
                     a {
                         display:block;
+                        padding:0;
+                        text-transform: uppercase;
+                        letter-spacing: 0.75px;
                     }
                 }
             }

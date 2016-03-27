@@ -229,11 +229,19 @@
                         margin-bottom:40px;
                         font-weight:normal;
                         font-size:18px;
+                        @include breakpoint(medium down) {
+                            height:auto;
+                            font-size:13px;
+                            line-height:18px;
+                        }
                     }
                     ul {
                         font-size:18px;
+                        @include breakpoint(medium down) {
+                            font-size:13px;
+                        }
                     }
-                    *:last-of-type {
+                    *:last-child {
                         margin-bottom: 0;
                     }
                 }
@@ -272,6 +280,19 @@
         }
     }
     .related-posts.wrapper {
+        > h3 {
+            font-size:35px;
+            font-family:$fontComic;
+            color:#251e26;
+            letter-spacing:1px;
+            margin-bottom: 80px;
+            text-transform: uppercase;
+            @include breakpoint(medium down) {
+                font-size:18px;
+                margin-bottom:30px;
+                margin-top:20px;
+            }
+        }
         article.post {
             margin-bottom:30px;
             > img {
