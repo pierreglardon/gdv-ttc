@@ -1,66 +1,92 @@
-#user{
-    padding-top:100px;
-    background:url(../images/bg-user.png) center center;
-    background-size:cover;
-    #block-visu-user{
-        margin-bottom: 15px;
-        .user-picture{
-            overflow: hidden;
-            text-align: center;
-            width:210px;
-            height:210px;
-            border-radius: 210px;
-            @include breakpoint(small down) {
-                margin : 0 auto;
-            }
-            img{
-                max-width: 100%;
+#user {
+    // background:url(../images/bg-user.png) top center;
+    // background-size:100% 100%;
+    &.cover {
+        // @include breakpoint(large down) {
+        //     background: url(../images/bg-user.png) top center no-repeat;
+        //     background-size: cover;
+        // }
+        &::before {
+            background: url(../images/bg-user.png) top center no-repeat;
+            content:" ";
+            background-size: cover;
+            height:538px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            z-index: 0;
+            @include breakpoint(large down) {
+                height:100%;
             }
         }
+        > * {
+            position: relative;
+            z-index: 1;
+        }
     }
-    #block-text-user{
-        .text-user{
-            @include breakpoint(small down) {
-                margin-left:15px;
-            }
-            h2{
-                font-family:$body-font-family;
-                font-size: 30px;
-                font-weight: 700;
-                color:$white;
-                strong{
-                    font-family: $fontComic;
-                    font-size: 35px;
-                    letter-spacing: 1px;
-                    color:$white;
+    > .row:first-of-type {
+        padding-top:100px;
+        position:relative;
+        #block-visu-user{
+            margin-top:20px;
+            .user-picture{
+                overflow: hidden;
+                text-align: center;
+                width:210px;
+                height:210px;
+                border-radius: 210px;
+                margin:auto;
+                img{
+                    max-width: 100%;
                 }
             }
-            p{
-                font-family:$body-font-family;
-                color:$white;
-            }
-            ul{
-                list-style: none;
-                margin-left: 0px;
-                li{
-                    line-height:45px;
-                    a{
-                        text-decoration: none;
-                        font-family:$body-font-family;
+        }
+        #block-text-user{
+            .text-user{
+                @include breakpoint(medium down) {
+                    text-align: center;
+                }
+                h2{
+                    font-family:$body-font-family;
+                    font-size: 30px;
+                    font-weight: 700;
+                    color:$white;
+                    strong{
+                        font-family: $fontComic;
+                        font-size: 35px;
+                        letter-spacing: 1px;
                         color:$white;
-                        b{
-                            font-weight: 800;
-                        }
-                        i {
-                            font-size:24px;
-                            display:inline-block;
-                            vertical-align: middle;
-                            margin-right:10px;
-                            &.fa.fa-star {
-                                color: $blue;
+                    }
+                }
+                p{
+                    font-family:$body-font-family;
+                    color:$white;
+                }
+                ul{
+                    list-style: none;
+                    margin-left: 0px;
+                    margin-bottom: 0;
+                    li{
+                        line-height:45px;
+                        a{
+                            text-decoration: none;
+                            font-family:$body-font-family;
+                            color:$white;
+                            b{
+                                font-weight: 800;
                             }
-                            &.fa.fa-heart {
-                                color:$red;
+                            i {
+                                font-size:24px;
+                                display:inline-block;
+                                vertical-align: middle;
+                                margin-right:10px;
+                                &.fa.fa-star {
+                                    color: $blue;
+                                }
+                                &.fa.fa-heart {
+                                    color:$red;
+                                }
                             }
                         }
                     }
@@ -69,9 +95,61 @@
         }
     }
     .user-pannel{
-        background:$darkblue;
         margin-top:100px;
         margin-bottom: 80px;
+        .tabs {
+            background:$darkblue;
+            border:0;
+            li {
+                width:33%;
+                text-align:center;
+                position:relative;
+                @include breakpoint(small down) {
+                    width:100%;
+                }
+                a {
+                    background:none;
+                    text-decoration: none;
+                    display: block;
+                    height:80px;
+                    line-height: 80px;
+                    font-family:$body-font-family;
+                    font-weight: bold;
+                    color:$white;
+                    text-transform: uppercase;
+                    padding:0;
+                    font-size:16px;
+                    i{
+                        font-size: 20px;
+                        margin-right: 10px;
+                    }
+                }
+                &::after {
+                    content:"";
+                    display:block;
+                    height:5px;
+                    width:0%;
+                    position:absolute;
+                    left:0;
+                    right:0;
+                    margin-left:auto;
+                    margin-right:auto;
+                    background:$red;
+                    transition:width ease 0.2s;
+                    @include breakpoint(small down) {
+                        bottom:0;
+                    }
+                }
+                &.is-active {
+                    &::after {
+                        width:50%;
+                        @include breakpoint(small down) {
+                            width:100%;
+                        }
+                    }
+                }
+            }
+        }
         .contener-user-pannel{
             @include breakpoint(small down) {
                 margin-left:15px;
@@ -89,6 +167,44 @@
                     font-size: 20px;
                     margin-right: 10px;
                 }
+            }
+        }
+
+        .tabs-content {
+            border:0;
+        }
+    }
+    .tabs-panel {
+        > header {
+            position:relative;
+            padding: 0 0.9375rem;
+            margin:60px 0 80px 0;
+            height:2.4375rem;
+            @include breakpoint(small down) {
+                padding: 0 0.625rem;
+            }
+        }
+        .title {
+            font-weight: bold;
+            font-size:16px;
+            color:$darkblue;
+            text-transform: uppercase;
+            @include vertical-center;
+            @include breakpoint(small down) {
+                float:none;
+                width:100%;
+                position:static;
+                text-align: center;
+                margin:10px 0;
+            }
+        }
+        .tri {
+            @include breakpoint(small down) {
+                float:none;
+                width:100%;
+                position:static;
+                text-align: center;
+                margin:0 0 10px;
             }
         }
     }
