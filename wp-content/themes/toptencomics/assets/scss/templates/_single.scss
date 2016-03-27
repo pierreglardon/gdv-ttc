@@ -1,6 +1,6 @@
 section.bloc-issue{
     display: block;
-    background:url(../images/bg-single.png) center center;
+    background:url(../images/bg-single.png) top center;
     height: 675px;
     @include breakpoint(medium down) {
         height:auto;
@@ -153,25 +153,6 @@ aside.social-networks{
         a{
 
         }
-    }
-}
-
-.tri{
-
-    padding: 0px;
-
-    label{
-        display: inline-block;
-        font-size: 16px;
-        font-weight: 700;
-
-    }
-    select{
-        width: 180px;
-        display: inline-block;
-        float: right;
-        padding: none;
-
     }
 }
 

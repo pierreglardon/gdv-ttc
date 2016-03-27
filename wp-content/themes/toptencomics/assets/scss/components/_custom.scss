@@ -449,3 +449,17 @@ body.home {
         }
     }
 }
+.tri{
+    text-align: right;
+    label{
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 700;
+        margin-right:8px;
+    }
+    select{
+        width: 180px;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+}
