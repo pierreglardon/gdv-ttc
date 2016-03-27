@@ -48,5 +48,8 @@ require_once( 'library/sticky-posts.php' );
 /** Comics custom post type */
 require_once( 'library/custom-post-type.php' );
 
+/** Change redirection déconnexion */
+require_once( 'library/connect-disconnect.php' );
+
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );

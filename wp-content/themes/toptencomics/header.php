@@ -11,7 +11,7 @@
 
 ?>
 <!doctype html>
-<html class="no-js" <?php language_attributes(); ?> >
+<html class="no-js js" <?php language_attributes(); ?>>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,6 +25,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+	<div id="preloader"></div>
 	<?php do_action( 'foundationpress_after_body' ); ?>
 
 	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
@@ -42,7 +43,15 @@
 					<i class="fa fa-search"></i> <?php get_search_form( $echo = true ) ?>
 				</div>
 				<div class="small-6 columns">
-					<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mini-batman.png" alt="Mon compte" /> <span>MON COMPTE</span></a>
+					<?php if(is_user_logged_in()){  ?>
+						<a href="<?php echo get_site_url(); ?>/user"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mini-batman.png" alt="Mon compte" /> <span>Mon compte</span></a>
+					<?php }
+					else { ?>
+						<a href="<?php echo get_site_url(); ?>/log"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mini-batman.png" alt="Inscription" /> <span>S'inscrire ou se connecter</span></a>
+						<?php
+					}
+					?>
+					<!-- <a href="<?php echo get_site_url(); ?>/user"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mini-batman.png" alt="Mon compte" /> <span>Mon compte</span></a> -->
 				</div>
 			</div>
 		</div>

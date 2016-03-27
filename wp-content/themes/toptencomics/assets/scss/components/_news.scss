@@ -1,0 +1,403 @@
+#news {
+    background: url(../images/bg-actu.png) top center no-repeat;
+    background-size:1920px 636px;
+    @include breakpoint(1600px down) {
+        background-size:auto;
+    }
+    h2 {
+        font-size:110px;
+        line-height:1;
+        font-family:$lucky;
+        color:#fff;
+        text-transform: uppercase;
+        margin-top:160px;
+        margin-bottom: 130px;
+        letter-spacing: 7.5px;
+        @include breakpoint(medium down) {
+            font-size:40px;
+            letter-spacing: 2px;
+            margin-top:100px;
+            margin-bottom:100px;
+        }
+    }
+    .article {
+        article.post {
+            margin-bottom:30px;
+            > img {
+                margin:auto;
+                display:block;
+                width:100%;
+            }
+            > section {
+                border-left:1px solid #e2e1e1;
+                border-right:1px solid #e2e1e1;
+                padding:35px 40px;
+                background:#fff;
+                @include breakpoint(medium down) {
+                    padding:15px 20px;
+                }
+                h3 {
+                    font-family:$fontComic;
+                    color:$blue;
+                    font-size:30px;
+                    line-height:40px;
+                    text-transform: uppercase;
+                    margin-bottom:35px;
+                    @include breakpoint(medium down) {
+                        font-size:18px;
+                        line-height:24px;
+                        margin-bottom:20px;
+                    }
+                }
+                h4 {
+                    color:#dfdede;
+                    font-size:16px;
+                    text-transform: uppercase;
+                    font-weight:400;
+                    margin-bottom:25px;
+                    @include breakpoint(medium down) {
+                        font-size:14px;
+                        margin-bottom:20px;
+                    }
+                }
+                p {
+                    font-size:18px;
+                    color:$darkblue;
+                    line-height:27px;
+                    margin-bottom:0;
+                    font-weight:700;
+                    height:135px;
+                    overflow: hidden;
+                    @include breakpoint(medium down) {
+                        height:auto;
+                        font-size:13px;
+                        line-height:18px;
+                    }
+                }
+            }
+            > footer {
+                background:#251e26;
+                position:relative;
+                ul {
+                    margin:0;
+                    line-height:100px;
+                    padding:0 40px;
+                    @include breakpoint(medium down) {
+                        display:none;
+                    }
+                    li {
+                        display:inline-block;
+                        margin-right:10px;
+                        @include breakpoint(medium down) {
+                            margin: 0 10px;
+                        }
+                        a {
+                            color:#fff;
+                            font-size:24px;
+                        }
+                    }
+                }
+                .readmore {
+                    font-size:24px;
+                    line-height:100px;
+                    padding:0 40px;
+                    @include breakpoint(medium down) {
+                        float:none !important;
+                        width:100%;
+                        display:block;
+                        line-height:1;
+                        padding: 10px 20px;
+                        text-align:right;
+                        font-size:18px;
+                    }
+                    a {
+                        color:#fff;
+                        letter-spacing: 0.75px;
+                        font-family:$fontComic;
+                        text-transform: uppercase;
+                        i {
+                            color:#5391d2;
+                            margin-left:5px;
+                            font-size:20px;
+                            @include breakpoint(medium down) {
+                                font-size:14px;
+                            }
+                        }
+                    }
+                }
+            }
+            &:first-of-type {
+                @include grid-column;
+                > section {
+                    @include breakpoint(large) {
+                        border:0;
+                        padding:35px 0;
+                    }
+                    h3 {
+                        @include breakpoint(large) {
+                            margin-bottom:30px;
+                        }
+                    }
+                    h4 {
+                        @include breakpoint(large) {
+                            margin-bottom:30px;
+                        }
+                    }
+                    p {
+                        @include breakpoint(large) {
+                            height:auto;
+                        }
+                    }
+                }
+                > footer {
+                    @include breakpoint(large) {
+                        background:none;
+                        padding-bottom:50px;
+                        border-bottom:1px solid #c7c7c7;
+                        margin-bottom:50px;
+                    }
+                    ul {
+                        @include breakpoint(large) {
+                            padding:0;
+                        }
+                        li {
+                            @include breakpoint(large) {
+                                margin-right:20px;
+                            }
+                            a {
+                                @include breakpoint(large) {
+                                    font-size:40px;
+                                    color:$darkblue;
+                                }
+                            }
+                        }
+                    }
+                    .readmore {
+                        @include breakpoint(large) {
+                            padding:0;
+                        }
+                        a {
+                            @include breakpoint(large) {
+                                background:#251e26;
+                                padding:30px 60px;
+                                display:inline-block;
+                                line-height:1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pagination {
+        text-align:center;
+        font-size:0;
+        li {
+            border:1px solid #cccccc;
+            padding:0;
+            background:#fff;
+            font-size:18px;
+            font-weight:bold;
+            margin-right:0;
+            border-right:0;
+            margin-top:100px;
+            a {
+                padding:0;
+                width:45px;
+                height:45px;
+                line-height:45px;
+                &:hover {
+                    background:0;
+                    color:$blue;
+                }
+            }
+            &.current {
+                a {
+                    color:$blue;
+                }
+            }
+            &:last-of-type {
+                border-right: 1px solid #cccccc;
+            }
+        }
+    }
+    &.single {
+        .article {
+            article {
+                section {
+                    p {
+                        margin-bottom:40px;
+                        font-weight:normal;
+                        font-size:18px;
+                        @include breakpoint(medium down) {
+                            height:auto;
+                            font-size:13px;
+                            line-height:18px;
+                        }
+                    }
+                    ul {
+                        font-size:18px;
+                        @include breakpoint(medium down) {
+                            font-size:13px;
+                        }
+                    }
+                    *:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+                footer {
+                    .navigationArticle {
+                        a {
+                            font-size:24px;
+                            padding:20px 40px;
+                            background:#251e26;
+                            display:inline-block;
+                            color:#fff;
+                            letter-spacing: 0.75px;
+                            font-family:$fontComic;
+                            text-transform: uppercase;
+                            @include breakpoint(medium down) {
+                                padding:10px 15px;
+                                font-size:14px;
+                            }
+                            i {
+                                color:#5391d2;
+                                font-size:20px;
+                                &.fa-angle-right {
+                                    margin-left:10px;
+                                }
+                                &.fa-angle-left {
+                                    margin-right:10px;
+                                }
+                                @include breakpoint(small down) {
+                                    display:none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .related-posts.wrapper {
+        > h3 {
+            font-size:35px;
+            font-family:$fontComic;
+            color:#251e26;
+            letter-spacing:1px;
+            margin-bottom: 80px;
+            text-transform: uppercase;
+            @include breakpoint(medium down) {
+                font-size:18px;
+                margin-bottom:30px;
+                margin-top:20px;
+            }
+        }
+        article.post {
+            margin-bottom:30px;
+            > img {
+                margin:auto;
+                display:block;
+                width:100%;
+            }
+            > section {
+                border-left:1px solid #e2e1e1;
+                border-right:1px solid #e2e1e1;
+                padding:35px 40px;
+                background:#fff;
+                @include breakpoint(medium down) {
+                    padding:15px 20px;
+                }
+                h3 {
+                    font-family:$fontComic;
+                    color:$blue;
+                    font-size:30px;
+                    line-height:40px;
+                    text-transform: uppercase;
+                    margin-bottom:35px;
+                    @include breakpoint(medium down) {
+                        font-size:18px;
+                        line-height:24px;
+                        margin-bottom:20px;
+                    }
+                }
+                h4 {
+                    color:#dfdede;
+                    font-size:16px;
+                    text-transform: uppercase;
+                    font-weight:400;
+                    margin-bottom:25px;
+                    @include breakpoint(medium down) {
+                        font-size:14px;
+                        margin-bottom:20px;
+                    }
+                }
+                p {
+                    font-size:18px;
+                    color:$darkblue;
+                    line-height:27px;
+                    margin-bottom:0;
+                    font-weight:700;
+                    height:135px;
+                    overflow: hidden;
+                    @include breakpoint(medium down) {
+                        height:auto;
+                        font-size:13px;
+                        line-height:18px;
+                    }
+                }
+            }
+            > footer {
+                background:#251e26;
+                position:relative;
+                ul {
+                    margin:0;
+                    line-height:100px;
+                    padding:0 40px;
+                    @include breakpoint(medium down) {
+                        display:none;
+                    }
+                    li {
+                        display:inline-block;
+                        margin-right:10px;
+                        @include breakpoint(medium down) {
+                            margin: 0 10px;
+                        }
+                        a {
+                            color:#fff;
+                            font-size:24px;
+                        }
+                    }
+                }
+                .readmore {
+                    font-size:24px;
+                    line-height:100px;
+                    padding:0 40px;
+                    @include breakpoint(medium down) {
+                        float:none !important;
+                        width:100%;
+                        display:block;
+                        line-height:1;
+                        padding: 10px 20px;
+                        text-align:right;
+                        font-size:18px;
+                    }
+                    a {
+                        color:#fff;
+                        letter-spacing: 0.75px;
+                        font-family:$fontComic;
+                        text-transform: uppercase;
+                        i {
+                            color:#5391d2;
+                            margin-left:5px;
+                            font-size:20px;
+                            @include breakpoint(medium down) {
+                                font-size:14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

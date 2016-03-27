@@ -19,84 +19,84 @@
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgblue">
+						<div class="square bgblue fav">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgred">
+						<div class="square bgred like">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
 						</div>
 					</div>
-					<img src="http://placehold.it/268x411" />
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
 					<div class="comicTitle">
-						<h4>Nom du comic</h4>
-						<h5>Titre du comic</h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
 					</div>
 				</div>
 			</div>
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgblue">
+						<div class="square bgblue fav">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgred">
+						<div class="square bgred like">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
 						</div>
 					</div>
-					<img src="http://placehold.it/268x411" />
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
 					<div class="comicTitle">
-						<h4>Nom du comic</h4>
-						<h5>Titre du comic</h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
 					</div>
 				</div>
 			</div>
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgblue">
+						<div class="square bgblue fav">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgred">
+						<div class="square bgred like">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
 						</div>
 					</div>
-					<img src="http://placehold.it/268x411" />
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
 					<div class="comicTitle">
-						<h4>Nom du comic</h4>
-						<h5>Titre du comic</h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
 					</div>
 				</div>
 			</div>
 			<div class="small-6 medium-3 columns">
 				<div class="card">
 					<div class="tools">
-						<div class="square bgblue">
+						<div class="square bgblue fav">
 							<a href="#!">
 								<i class="fa fa-star-o"></i>
 							</a>
 						</div>
-						<div class="square bgred">
+						<div class="square bgred like">
 							<a href="#!">
 								<i class="fa fa-heart-o"></i>
 							</a>
 						</div>
 					</div>
-					<img src="http://placehold.it/268x411" />
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
 					<div class="comicTitle">
-						<h4>Nom du comic</h4>
-						<h5>Titre du comic</h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
 					</div>
 				</div>
 			</div>
@@ -125,13 +125,13 @@
 				<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo-big.png" alt="<?php bloginfo( 'name' ); ?>" />
 			</div>
 			<div class="medium-7 medium-offset-1 columns">
-				<ul class="row">
-					<li class="medium-4 columns">Menu 1</li>
-					<li class="medium-4 columns">Menu 2</li>
-					<li class="medium-4 columns">Menu 3</li>
-					<li class="medium-4 columns">Menu 4</li>
-					<li class="medium-4 columns">Menu 5</li>
-					<li class="medium-4 columns">Menu 6</li>
+				 <ul class="row">
+					<li class="medium-4 columns"><a href="#!">Actualités</a></li>
+					<li class="medium-4 columns"><a href="#!">Mentions légales</a></li>
+					<li class="medium-4 columns"><a href="#!">Newsletter</a></li>
+					<li class="medium-4 columns"><a href="#!">Comics</a></li>
+					<li class="medium-4 columns"><a href="#!">Termes d'utilisation</a></li>
+					<li class="medium-4 columns"><a href="#!">Nous contacter</a></li>
 				</ul>
 			</div>
 		</div>
@@ -166,9 +166,9 @@
 <?php do_action( 'foundationpress_layout_end' ); ?>
 
 <?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
-</div><!-- Close off-canvas wrapper inner -->
-</div><!-- Close off-canvas wrapper -->
-</div><!-- Close off-canvas content wrapper -->
+</div>
+</div>
+</div>
 <?php endif; ?>
 
 

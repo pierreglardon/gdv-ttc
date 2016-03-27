@@ -31,15 +31,19 @@
         max-width: 268px;
         margin:auto;
         h4 {
-            color:$blue;
             font-family:$fontComic;
             font-size:24px;
             margin:15px 0 0;
+            a {
+                color:$blue;
+            }
         }
         h5 {
             font-size:16px;
-            color:#0e0e24;
             line-height: 1.5;
+            a {
+                color:#0e0e24;
+            }
         }
     }
 }

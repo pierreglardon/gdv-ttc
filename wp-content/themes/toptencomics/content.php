@@ -11,16 +11,32 @@
 
 ?>
 
-<div id="post-<?php the_ID(); ?>" <?php post_class('blogpost-entry'); ?>>
-	<header>
-		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<?php foundationpress_entry_meta(); ?>
-	</header>
-	<div class="entry-content">
-		<?php the_content( __( 'Continue reading...', 'foundationpress' ) ); ?>
-	</div>
-	<footer>
-		<?php $tag = get_the_tags(); if ( $tag ) { ?><p><?php the_tags(); ?></p><?php } ?>
+<article class="large-6 columns post">
+	<?php if ( has_post_thumbnail() ) : ?>
+		<?php the_post_thumbnail(); ?>
+	<?php endif; ?>
+	<section>
+		<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+		<h4><?php the_time('j F, Y'); ?></h4>
+		<?php the_excerpt(); ?>
+	</section>
+	<footer class="clearfix">
+		<ul class="float-left">
+			<li>
+				<a href="#!"><i class="fa fa-facebook-official"></i></a>
+			</li>
+			<li>
+				<a href="#!"><i class="fa fa-youtube"></i></a>
+			</li>
+			<li>
+				<a href="#!"><i class="fa fa-google-plus"></i></a>
+			</li>
+			<li>
+				<a href="#!"><i class="fa fa-twitter"></i></a>
+			</li>
+		</ul>
+		<div class="readmore float-right">
+            <a href="<?php the_permalink(); ?>">Lire la suite <i class="fa fa-angle-right"></i></a>
+        </div>
 	</footer>
-	<hr />
-</div>
+</article>

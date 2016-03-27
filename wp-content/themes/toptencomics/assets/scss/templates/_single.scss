@@ -1,61 +1,73 @@
 section.bloc-issue{
     display: block;
-    background-color: grey;
+    background:url(../images/bg-single.png) top center;
     height: 675px;
-
-    .fil{
-        ul{
-            margin: 0px;
-            li{
-                display: inline-block;
-                font-size: 12px;
-                padding-right: 15px;
-                margin: 45px 0px;
-                color: #fff;
-                a{
-                    color: #fff;
-                }
-                i{
-                    color: $blue;
-                }
-            }
-        }
+    @include breakpoint(medium down) {
+        height:auto;
+        padding-bottom:45px;
     }
     .fiche-serie{
         margin-bottom: 80px;
-
+        @include breakpoint(medium down) {
+            margin-bottom: 0;
+        }
         img{
-            float: left;
-            margin-left: 0px;
-            z-index: 5px;
+            display:block;
+            margin:auto;
             margin-bottom: 70px;
+            &.main-img {
+                @include breakpoint(small down) {
+                    width:50%;
+                    margin-bottom:35px;
+                }
+            }
         }
         .texte-serie{
             display: inline-block;
-
             .btn{
-
+                @include breakpoint(small down) {
+                    padding:0.7rem 1.4rem;
+                }
                 a{
                     display: inline-block;
                     font-family: roboto;
                     color: #fff;
                     font-size: 16px;
-
+                    font-weight:bold;
+                    text-transform: uppercase;
+                    @include breakpoint(small down) {
+                        font-size: 14px;
+                    }
                 }
                 i{
                     padding-left: 20px;
                     font-size: 25px;
+                    display:inline-block;
+                    vertical-align: middle;
                 }
             }
-            .bgblue{
-                float: right;
+            .square {
+                &.bgblue {
+                    float:right;
+                    @include breakpoint(1130px down) {
+                        float:none;
+                    }
+                }
+                @include breakpoint(1130px down) {
+                    float:none;
+                    width:100%;
+                    display:block;
+                    margin-bottom:10px;
+                    text-align: center;
+                }
             }
             .title-serie{
             margin-top: 50px;
 
             .picto-book{
-                margin-right : 20px;
+                margin-right : 10px;
                 margin-bottom: 0px;
+                display:inline-block;
             }
 
                 h2{
@@ -63,6 +75,10 @@ section.bloc-issue{
                     color: $blue;
                     font-family: $fontComic;
                     display: inline-block;
+                    text-transform: uppercase;
+                    @include breakpoint(small down) {
+                        font-size: 18px;
+                    }
                 }
                 p{
                     display: inline-block;
@@ -70,12 +86,19 @@ section.bloc-issue{
                     font-weight: 700;
                     font-size: 20px;
                     margin-left: 5px;
+                    @include breakpoint(small down) {
+                        font-size: 14px;
+                        margin-bottom:0;
+                    }
                 }
                 h3{
                     font-size: 30px;
                     color: $blue;
                     font-family: $fontComic;
                     display: inline-block;
+                    @include breakpoint(small down) {
+                        font-size: 18px;
+                    }
 
                 }
             }
@@ -87,18 +110,30 @@ section.bloc-issue{
                 color: #fff;
                 height:125px;
                 overflow-y: scroll;
+                text-align: justify;
+                padding-right:10px;
+                @include breakpoint(small down) {
+                    font-size: 13px;
+                    height:auto;
+                    font-weight:normal;
+                    padding-right:0;
+                }
             }
         }
     }
 }
 aside.social-networks{
-
+    margin-bottom:20px;
     ul{
         list-style-type: none;
         margin: 0;
         padding: 0;
         margin-top: 25px;
         float: right;
+        @include breakpoint(medium down) {
+            padding-right: 0.625rem;
+            margin-top: 10px;
+        }
         li{
             display: inline-block;
             a{
@@ -121,25 +156,6 @@ aside.social-networks{
     }
 }
 
-.tri{
-
-    padding: 0px;
-
-    label{
-        display: inline-block;
-        font-size: 16px;
-        font-weight: 700;
-
-    }
-    select{
-        width: 180px;
-        display: inline-block;
-        float: right;
-        padding: none;
-
-    }
-}
-
 .carac-liste{
     ul{
         list-style: none;
@@ -149,19 +165,29 @@ aside.social-networks{
         li{
             font-size:20px;
             color: white;
+            @include breakpoint(small down) {
+                font-size: 14px;
+            }
             strong{
                 font-family: $fontComic;
                 font-size: 22px;
+                text-transform: uppercase;
+                @include breakpoint(small down) {
+                    font-size: 16px;
+                }
             }
         }
     }
 }
 
 .variantes{
-
     margin-top:35px;
     margin-left: 30px;
-
+    @include breakpoint(medium down) {
+        padding-left: 0.625rem;
+        margin-left:0;
+        margin-top: 10px;
+    }
     a{
         color: #1f1f1f;
         font-size: 18px;

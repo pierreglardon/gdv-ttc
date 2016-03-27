@@ -12,6 +12,10 @@
       margin-top:90px;
       img{
         margin-right:15px;
+        @include breakpoint(medium down) {
+            display:block;
+            margin:auto;
+        }
       }
     }
   }
@@ -62,15 +66,22 @@
               font-family: $fontComic;
               @include breakpoint(medium down) {
                   height:40px;
-                  font-size:16px;
+                  font-size:14px;
+                  padding:0.85em 0.5em
               }
           }
           .columns {
             &:first-of-type {
               padding-left:0.9375rem;
+              @include breakpoint(medium down) {
+                padding-right:0.9375rem;
+              }
             }
             &:last-of-type {
               padding-right:0.9375rem;
+              @include breakpoint(medium down) {
+                padding-left:0.9375rem;
+              }
             }
           }
       }
