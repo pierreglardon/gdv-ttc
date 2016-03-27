@@ -24,7 +24,7 @@ get_header(); ?>
 				<h2>Actualités</h2>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row article">
 			<?php if ( have_posts() ) : ?>
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
@@ -42,15 +42,5 @@ get_header(); ?>
 				<?php } ?>
 		</div>
 	</div>
-
 </div>
-
-<div id="page" role="main">
-	<article class="main-content">
-
-
-	</article>
-
-</div>
-
 <?php get_footer(); ?>
