@@ -11,7 +11,7 @@
 
 ?>
 <!doctype html>
-<html class="no-js" <?php language_attributes(); ?> >
+<html class="no-js js" <?php language_attributes(); ?>>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,6 +25,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+	<div id="preloader"></div>
 	<?php do_action( 'foundationpress_after_body' ); ?>
 
 	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
