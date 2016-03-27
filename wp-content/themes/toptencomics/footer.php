@@ -125,8 +125,14 @@
 				<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo-big.png" alt="<?php bloginfo( 'name' ); ?>" />
 			</div>
 			<div class="medium-7 medium-offset-1 columns">
-				<?php wp_nav_menu('footer'); ?>
-
+				 <ul class="row">
+					<li class="medium-4 columns"><a href="#!">Actualités</a></li>
+					<li class="medium-4 columns"><a href="#!">Mentions légales</a></li>
+					<li class="medium-4 columns"><a href="#!">Newsletter</a></li>
+					<li class="medium-4 columns"><a href="#!">Comics</a></li>
+					<li class="medium-4 columns"><a href="#!">Termes d'utilisation</a></li>
+					<li class="medium-4 columns"><a href="#!">Nous contacter</a></li>
+				</ul>
 			</div>
 		</div>
 		<div class="row follow cleafix">
