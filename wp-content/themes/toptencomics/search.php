@@ -88,164 +88,29 @@ get_header(); ?>
 				</div>
 				<img src="http://placehold.it/268x268" />
 				<div class="comicTitle">
-					<h4>guardians of the galaxy<strong>(23)</h4>
-						<h6>2013 - present</h6>
-					</div>
+					<h4>guardians of the galaxy<strong>(23)</strong></h4>
+					<h6>2013 - present</h6>
 				</div>
 			</div>
-			<div class="small-6 medium-3 columns">
-				<div class="card">
-					<div class="tools">
-						<div class="square bgred">
-							<a href="#!">
-								<i class="fa fa-star-o"></i>
-							</a>
-						</div>
-						<div class="square bgblue">
-							<a href="#!">
-								<i class="fa fa-heart-o"></i>
-							</a>
-						</div>
-					</div>
-					<img src="http://placehold.it/268x268" />
-					<div class="comicTitle">
-						<h4>guardians of the galaxy<strong>(23)</h4>
-							<h6>2013 - présent</h6>
-						</div>
-					</div>
-				</div>
-				<div class="small-6 medium-3 columns">
-					<div class="card">
-						<div class="tools">
-							<div class="square bgred">
-								<a href="#!">
-									<i class="fa fa-star-o"></i>
-								</a>
-							</div>
-							<div class="square bgblue">
-								<a href="#!">
-									<i class="fa fa-heart-o"></i>
-								</a>
-							</div>
-						</div>
-						<img src="http://placehold.it/268x268" />
-						<div class="comicTitle">
-							<h4>guardians of the galaxy<strong>(23)</h4>
-								<h6>2013 - présent</h6>
-							</div>
-						</div>
-					</div>
-					<div class="small-6 medium-3 columns">
-						<div class="card">
-							<div class="tools">
-								<div class="square bgred">
-									<a href="#!">
-										<i class="fa fa-star-o"></i>
-									</a>
-								</div>
-								<div class="square bgblue">
-									<a href="#!">
-										<i class="fa fa-heart-o"></i>
-									</a>
-								</div>
-							</div>
-							<img src="http://placehold.it/268x268" />
-							<div class="comicTitle">
-								<h4>guardians of the galaxy<strong>(23)</h4>
-									<h6>2013 - présent</h6>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row result"><!-- LISTING COMICS DE LA SERIE -->
-						<div class="small-6 medium-3 columns">
-							<div class="card">
-								<div class="tools">
-									<div class="square bgred">
-										<a href="#!">
-											<i class="fa fa-star-o"></i>
-										</a>
-									</div>
-									<div class="square bgblue">
-										<a href="#!">
-											<i class="fa fa-heart-o"></i>
-										</a>
-									</div>
-								</div>
-								<img src="http://placehold.it/268x268" />
-								<div class="comicTitle">
-									<h4>guardians of the galaxy<strong>(23)</h4>
-										<h6>2013 - présent</h6>
-									</div>
-								</div>
-							</div>
-							<div class="small-6 medium-3 columns">
-								<div class="card">
-									<div class="tools">
-										<div class="square bgred">
-											<a href="#!">
-												<i class="fa fa-star-o"></i>
-											</a>
-										</div>
-										<div class="square bgblue">
-											<a href="#!">
-												<i class="fa fa-heart-o"></i>
-											</a>
-										</div>
-									</div>
-									<img src="http://placehold.it/268x268" />
-									<div class="comicTitle">
-										<h4>guardians of the galaxy<strong>(23)</h4>
-											<h6>2013 - présent</h6>
-										</div>
-									</div>
-								</div>
-								<div class="small-6 medium-3 columns">
-									<div class="card">
-										<div class="tools">
-											<div class="square bgred">
-												<a href="#!">
-													<i class="fa fa-star-o"></i>
-												</a>
-											</div>
-											<div class="square bgblue">
-												<a href="#!">
-													<i class="fa fa-heart-o"></i>
-												</a>
-											</div>
-										</div>
-										<img src="http://placehold.it/268x268" />
-										<div class="comicTitle">
-											<h4>guardians of the galaxy<strong>(23)</h4>
-												<h6>2013 - présent</h6>
-											</div>
-										</div>
-									</div>
-									<div class="small-6 medium-3 columns">
-										<div class="card">
-											<div class="tools">
-												<div class="square bgred">
-													<a href="#!">
-														<i class="fa fa-star-o"></i>
-													</a>
-												</div>
-												<div class="square bgblue">
-													<a href="#!">
-														<i class="fa fa-heart-o"></i>
-													</a>
-												</div>
-											</div>
-											<img src="http://placehold.it/268x268" />
-											<div class="comicTitle">
-												<h4>guardians of the galaxy<strong>(23)</h4>
-													<h6>2013 - présent</h6>
-												</div>
-											</div>
-										</div>
-									</div>
-								</section>
+		</div>
+	</div>
+</section>
+<div class="row">
+	<div class="medium-9 columns results"><!-- RÉSULTATS -->
+		<p>3 COMICS TROUVÉS POUR <a href="#">| HULK</a></p>
+	</div>
+	<div class="medium-3 columns tri"><!-- TRI -->
+		<label for="">Trier par :</label>
+		<select name="select">
+			<option value="value1">Les - récents</option>
+			<option value="value2" selected>Les + récents</option>
+			<option value="value3">Titre A-Z</option>
+			<option value="value3">Titre Z-A</option>
+		</select>
+	</div>
+	<div class="row result resultats"><!-- LISTING COMICS DE LA SERIE -->
+	</div>
+</div>
 
 
-
-
-								<?php get_footer(); ?>
+				<?php get_footer(); ?>

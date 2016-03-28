@@ -21,6 +21,10 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-precomposed.png">
 		<link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
+		<?php wp_localize_script('mylib', 'WPURLS', array( 'siteurl' => get_option('siteurl') )); ?>
+		<script type="text/javascript">
+			var templateUrl = WPURLS.siteurl;
+		</script>
 		<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
 		<?php wp_head(); ?>
 	</head>

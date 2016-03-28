@@ -58,6 +58,10 @@ get_header(); ?>
 
 	</div>
 </div>
+ <?php do_action( 'foundationpress_before_content' ); ?>
+
+<div class="resultats"></div>
+ <?php do_action( 'foundationpress_after_content' ); ?>
 
 
 <?php get_footer(); ?>
