@@ -16,7 +16,13 @@
 
 get_header(); ?>
 <div id="page" role="main">
-
+	<div class="parallaxFlocon show-for-large">
+		<img src="<?php echo get_template_directory_uri () ?>/assets/images/parallax/1.png" class="flocon flocon1 floconScr1" ?>
+		<img src="<?php echo get_template_directory_uri () ?>/assets/images/parallax/2.png" class="flocon flocon2 floconScr2" ?>
+		<img src="<?php echo get_template_directory_uri () ?>/assets/images/parallax/1.png" class="flocon flocon3 floconScr3" ?>
+		<img src="<?php echo get_template_directory_uri () ?>/assets/images/parallax/2.png" class="flocon flocon4 floconScr4" ?>
+		<img src="<?php echo get_template_directory_uri () ?>/assets/images/parallax/1.png" class="flocon flocon5 floconScr5" ?>
+	</div>
 	<section class="join">
 		<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo-big.png" alt="<?php bloginfo( 'name' ); ?>" class="biglogo" />
 		<h2>GÉREZ VOTRE COLLECTION EN QUELQUES CLICS !</h2>

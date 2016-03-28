@@ -478,4 +478,41 @@ body.home {
         margin-bottom: 0;
     }
 }
-    
+
+
+.parallaxFlocon {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    img.flocon {
+        position:absolute;
+        margin: auto;
+        &.flocon1 {
+            right:70%;
+            left:0;
+            top:70px;
+        }
+        &.flocon2 {
+            right:0;
+            left:70%;
+            top:280px;
+        }
+        &.flocon3 {
+            right:0;
+            left:-270px;
+            top:650px;
+        }
+        &.flocon4 {
+            right:0;
+            left:90%;
+            top:750px;
+            transform: rotate(-110deg);
+        }
+        &.flocon5 {
+            right:90%;
+            left:0;
+            top:850px;
+            transform: rotate(120deg);
+        }
+    }
+}
