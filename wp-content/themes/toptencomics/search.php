@@ -57,7 +57,7 @@ get_header(); ?>
 <section id="block-resultat-recherche">
 	<div class="row">
 		<div class="medium-9 columns results"><!-- RÉSULTATS -->
-			<p>3 COMICS TROUVÉS POUR <a href="#">HULK</a></p>
+			<p>3 COMICS TROUVÉS POUR <a href="#!">AVENGERS</a></p>
 		</div>
 		<div class="medium-3 columns tri"><!-- TRI -->
 			<label for="">Trier par :</label>

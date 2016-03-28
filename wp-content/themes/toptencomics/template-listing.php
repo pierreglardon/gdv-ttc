@@ -14,7 +14,7 @@
 
         <article class="row fiche-serie"><!-- DESCRIPTIF DE LA SERIE -->
             <aside class="small-12 medium-5 columns"><!-- IMG -->
-                <img src="http://placehold.it/490x490" class="main-img">
+                <img src="http://i.annihil.us/u/prod/marvel/i/mg/3/00/5130f033d84a9.jpg" class="main-img">
             </aside>
 
             <aside class="small-12 medium-7 columns"><!-- TEXTE -->
@@ -60,7 +60,7 @@
 
     <div class="row columns">
         <div class="medium-9 columns results"><!-- RÉSULTATS -->
-            <p>15 COMICS TROUVÉS POUR <a href="#">AVENGERS | 1963-2010</a></p>
+            <p>8 COMICS TROUVÉS POUR <a href="#">AVENGERS | 1996 - 1997</a></p>
         </div>
         <div class="medium-3 columns tri"><!-- TRI -->
             <label for="">Trier par :</label>
@@ -74,7 +74,7 @@
 
     </div>
 
-    <div class="row"><!-- LISTING COMICS DE LA SERIE -->
+    <div class="row listingComics"><!-- LISTING COMICS DE LA SERIE -->
         <div class="small-6 medium-3 columns">
             <div class="card">
                 <div class="tools">
@@ -89,10 +89,10 @@
                         </a>
                     </div>
                 </div>
-                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://x.annihil.us/u/prod/marvel/i/mg/c/90/4bb7e07b9bc49.jpg" /></a>
                 <div class="comicTitle">
-                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
-                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Avengers #1</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Valentino, Liefeld</a></h5>
                 </div>
             </div>
         </div>
@@ -110,10 +110,10 @@
                         </a>
                     </div>
                 </div>
-                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://x.annihil.us/u/prod/marvel/i/mg/3/40/4bb85467110b9.jpg" /></a>
                 <div class="comicTitle">
-                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
-                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Avengers #2</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Valentino, Liefeld</a></h5>
                 </div>
             </div>
         </div>
@@ -131,10 +131,10 @@
                         </a>
                     </div>
                 </div>
-                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://i.annihil.us/u/prod/marvel/i/mg/6/f0/4bb846870f7a7.jpg" /></a>
                 <div class="comicTitle">
-                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
-                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Avengers #3</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Valentino, Liefeld</a></h5>
                 </div>
             </div>
         </div>
@@ -152,10 +152,10 @@
                         </a>
                     </div>
                 </div>
-                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://i.annihil.us/u/prod/marvel/i/mg/c/b0/4bb852bf1fe78.jpg" /></a>
                 <div class="comicTitle">
-                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
-                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Avengers #4</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Valentino, Liefeld</a></h5>
                 </div>
             </div>
         </div>
@@ -173,10 +173,10 @@
                         </a>
                     </div>
                 </div>
-                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://x.annihil.us/u/prod/marvel/i/mg/9/b0/4bb8529da8d72.jpg" /></a>
                 <div class="comicTitle">
-                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
-                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Avengers #5</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Valentino, Liefeld</a></h5>
                 </div>
             </div>
         </div>
@@ -194,10 +194,10 @@
                         </a>
                     </div>
                 </div>
-                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://i.annihil.us/u/prod/marvel/i/mg/7/40/4c362be998c94.jpg" /></a>
                 <div class="comicTitle">
-                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
-                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Avengers #6</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Valentino, Liefeld</a></h5>
                 </div>
             </div>
         </div>
@@ -215,10 +215,10 @@
                         </a>
                     </div>
                 </div>
-                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://i.annihil.us/u/prod/marvel/i/mg/f/b0/4bb79ae06cf8e.jpg" /></a>
                 <div class="comicTitle">
-                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
-                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Avengers #7</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Valentino, Liefeld</a></h5>
                 </div>
             </div>
         </div>
@@ -236,10 +236,10 @@
                         </a>
                     </div>
                 </div>
-                <a href="http://localhost/gdv-ttc/single"><img src="http://placehold.it/268x411" /></a>
+                <a href="http://localhost/gdv-ttc/single"><img src="http://x.annihil.us/u/prod/marvel/i/mg/f/60/4bb6dce5d822f.jpg" /></a>
                 <div class="comicTitle">
-                    <h4><a href="http://localhost/gdv-ttc/single">Nom du comic</a></h4>
-                    <h5><a href="http://localhost/gdv-ttc/single">Titre du comic</a></h5>
+                    <h4><a href="http://localhost/gdv-ttc/single">Avengers #8</a></h4>
+                    <h5><a href="http://localhost/gdv-ttc/single">Valentino, Liefeld</a></h5>
                 </div>
             </div>
         </div>

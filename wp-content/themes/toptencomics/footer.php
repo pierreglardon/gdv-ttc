@@ -30,10 +30,10 @@
 							</a>
 						</div>
 					</div>
-					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://x.annihil.us/u/prod/marvel/i/mg/9/c0/56d09bb90bf77.jpg" /></a>
 					<div class="comicTitle">
-						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
-						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">SPIDER-MAN #2</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Bendis, Pichelli</a></h5>
 					</div>
 				</div>
 			</div>
@@ -51,10 +51,10 @@
 							</a>
 						</div>
 					</div>
-					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://x.annihil.us/u/prod/marvel/i/mg/6/a0/5697d7ca0f513.jpg" /></a>
 					<div class="comicTitle">
-						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
-						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">SPIDER-MAN #3</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Bendis, Pichelli</a></h5>
 					</div>
 				</div>
 			</div>
@@ -72,10 +72,10 @@
 							</a>
 						</div>
 					</div>
-					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://i.annihil.us/u/prod/marvel/i/mg/3/80/56e3335193a8c.jpg" /></a>
 					<div class="comicTitle">
-						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
-						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">EXTRAORDINARY X-MEN #8</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">Lemire, Rammos</a></h5>
 					</div>
 				</div>
 			</div>
@@ -93,10 +93,10 @@
 							</a>
 						</div>
 					</div>
-					<a href="http://localhost/gdv-ttc/comics"><img src="http://placehold.it/268x411" /></a>
+					<a href="http://localhost/gdv-ttc/comics"><img src="http://x.annihil.us/u/prod/marvel/i/mg/2/f0/5314d3e4534c2.jpg" /></a>
 					<div class="comicTitle">
-						<h4><a href="http://localhost/gdv-ttc/comics">Nom du comic</a></h4>
-						<h5><a href="http://localhost/gdv-ttc/comics">Titre du comic</a></h5>
+						<h4><a href="http://localhost/gdv-ttc/comics">CAPTAIN MARVEL #1</a></h4>
+						<h5><a href="http://localhost/gdv-ttc/comics">DeConnick, Lopez</a></h5>
 					</div>
 				</div>
 			</div>
