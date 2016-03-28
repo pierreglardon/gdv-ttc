@@ -6,7 +6,6 @@
 * @subpackage FoundationPress
 * @since FoundationPress 1.0.0
 */
-
 get_header(); ?>
 
 <section id="search-section"><!-- SECTION RECHERCHE BLEU -->
@@ -55,7 +54,6 @@ get_header(); ?>
 	</article>
 </section>
 
-
 <section id="block-resultat-recherche">
 	<div class="row">
 		<div class="medium-9 columns results"><!-- RÉSULTATS -->
@@ -75,6 +73,4 @@ get_header(); ?>
 	</div>
 </section>
 
-
-
-				<?php get_footer(); ?>
+<?php get_footer(); ?>
