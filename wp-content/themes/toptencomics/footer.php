@@ -58,7 +58,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="small-6 medium-3 columns">
+			<div class="small-6 medium-3 columns hide-for-small-only">
 				<div class="card">
 					<div class="tools">
 						<div class="square bgblue fav">
@@ -79,7 +79,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="small-6 medium-3 columns">
+			<div class="small-6 medium-3 columns hide-for-small-only">
 				<div class="card">
 					<div class="tools">
 						<div class="square bgblue fav">

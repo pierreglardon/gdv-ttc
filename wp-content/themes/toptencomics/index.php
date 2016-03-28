@@ -31,7 +31,16 @@ get_header(); ?>
 				<img src="<?php echo get_template_directory_uri () ?>/assets/images/perso1.png" class="perso perso1" />
 			</div>
 			<div class="large-4 columns">
-				<a href="#!" class="btn">Rejoignez l'aventure !</a>
+
+				<?php if(is_user_logged_in()){  ?>
+					<a href="user" class="btn">Voir mon compte</a>
+				<?php }
+				else { ?>
+
+					<a href="log" class="btn">Rejoignez l'aventure !</a>
+					<?php
+				}
+				?>
 				<img src="<?php echo get_template_directory_uri () ?>/assets/images/fire.png" class="boom hide" />
 			</div>
 			<div class="large-4 columns">
