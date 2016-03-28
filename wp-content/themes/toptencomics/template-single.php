@@ -21,10 +21,10 @@
 
             <aside class="small-12 medium-7 columns"><!-- TEXTE -->
                 <div class="texte-serie">
-                    <div class="square bgred fav btn">
+                    <div class="square bgblue fav btn">
                         <a href="#!">Ajouter à ma collection<i class="fa fa-star-o"></i></a>
                     </div>
-                    <div class="square bgblue like btn">
+                    <div class="square bgred like btn">
                         <a href="#!">Ajouter à ma wishlist<i class="fa fa-heart-o"></i></a>
                     </div>
                     <div class="title-serie">
