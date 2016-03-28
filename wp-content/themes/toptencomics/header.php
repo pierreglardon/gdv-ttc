@@ -58,7 +58,7 @@
 		<div class="title-bar" data-responsive-toggle="site-navigation">
 			<button class="menu-icon" type="button" data-toggle="offCanvas"></button>
 			<div class="title-bar-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<a href="<?php echo get_site_url(); ?>" rel="home">
 					<img src="<?php echo get_template_directory_uri () ?>/assets/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
 				</a>
 			</div>
