@@ -1,5 +1,4 @@
 .loginpageWrapper {
-    height:475px;
     @include breakpoint(medium down) {
         height:auto;
     }
